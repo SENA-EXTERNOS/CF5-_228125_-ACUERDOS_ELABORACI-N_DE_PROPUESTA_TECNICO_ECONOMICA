@@ -2,194 +2,205 @@
 .curso-main-container.pb-3
   BannerInterno
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 1
-      h1 Acuerdos de niveles de servicios
-    .row.justify-content-around.align-items-center
-      .col-md.col-lg-6
-        .bloque-texto-color.p-3
-          p En el marco del desarrollo de software, es de suma importancia que los proveedores de sistemas de información brinden soporte técnico post-instalación. Se podría decir que es la base fundamental y la retroalimentación necesaria una vez puesta en marcha las aplicaciones o plataformas que pasan a fase de producción en determinadas compañías. 
-
-        p.p-3 La armonía existente entre esta sociedad y el proveedor resulta vital en tanto la ejecución de un proyecto de software requiere horas de implementación, templanza, constancia, además de capacitación a personal operativo o administrativo, dependiendo el caso, siendo elementos evidentemente desgastantes no solo en la ejecución del proceso, sino posteriormente, cuando las personas que interactúan con el programa se enfrentan, sin acompañamiento, a realizar las instrucciones necesarias para operar, siendo ese instante, cuando surgen dudas, anomalías, inconsistencias, confusión con las opciones, etc., generando, sin lugar a dudas, el momento oportuno para poner a disposición todo el equipo de soporte técnico por parte del proveedor, para atender las necesidades recurrentes encontradas por los operarios.
-        
-      .col-md.col-lg-6
-        .tarjeta.tarjeta.tarjeta--blanca.p-3(data-aos="fade-left")
-          img(src="@/assets/curso/portada/imagen1-tema1.svg")
-      
-
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-texto-slider-imagen-de-fondo
-
-    .row.justify-content-around.align-items-center
-      
-      .col-md.col-lg-5
-        .tarjeta.tarjeta.tarjeta--blanca.p-3(data-aos="fade-left")
-          img(src="@/assets/curso/portada/imagen2-tema1.svg")
-
-      .col-md.col-lg-7
-
-        p.p-2 Debe establecerse un contrato entre cliente y proveedor que permita identificar con facilidad los acuerdos que se lleven a cabo entre las dos partes y la forma de operar en los servicios de soporte porque de esto depende el funcionamiento de los procesos internos de cada empresa.
-        .bloque-texto-color.p-3
-          p.mb-0 En ese documento se fijan con claridad las responsabilidades y límites de los involucrados para evitar cuellos de botella de quienes reciben asistencia, la cual se debe prestar de manera adecuada y con la mayor prestación posible. Los acuerdos suministran la información necesaria para mejorar todos los procesos de soporte que rigen una empresa, desde información a bases de datos, soporte de hardware a software, de usuarios convencionales a privilegiados, entre otros.
-
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .row.justify-content-around.align-items-center
-      .col-lg-6
-        .bloque-texto-color.p-3
-          p Las correctas herramientas y prácticas usadas por el grupo desarrollador para actualizar una funcionalidad en el sistema, como realizar pruebas y despliegues, escalamientos en la infraestructura del software, en caso que se requiera, o garantizar el funcionamiento emprendido a nivel de servicio con el usuario final, son procesos clave en los niveles de servicio técnico que dan fiabilidad a los clientes, percibiendo apoyo en el suministro de esa prioridad.
-      
-      .col-lg-6
-        .tarjeta.tarjeta.tarjeta--blanca.p-3(data-aos="fade-left")
-          img(src="@/assets/curso/portada/imagen3-tema1.svg")
-
-
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    #tipos
-    .titulo-segundo.color-acento-botones
-      h2 Tipos
-    
-    .cajon.color-secundario.p-4
+      .titulo-principal.color-acento-contenido
+        .titulo-principal__numero
+          span 1
+        h1 Acuerdos de niveles de servicios
       .row.justify-content-around.align-items-center
-        .col-6.col-sm-4.col-md-2.mb-4.mb-md-0
-          img(src="@/assets/curso/portada/imagen-tipos.svg")
+        .col-md.col-lg-6
+          .bloque-texto-color.p-3
+            p En el marco del desarrollo de software, es de suma importancia que los proveedores de sistemas de información brinden soporte técnico post-instalación. Se podría decir que es la base fundamental y la retroalimentación necesaria una vez puesta en marcha las aplicaciones o plataformas que pasan a fase de producción en determinadas compañías. 
 
-        .col-md.col-lg-8
-
-          p.mb-4 Los niveles de servicio indican una negociación entre dos partes que intercambian fuerza laboral, una de las partes brinda atención y la otra la recibe, compartiendo responsabilidades conjuntas que garantizan la magnitud del servicio prestado.
-    br
-    
-  
-
-  // Infografia de punto caliente
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-    p.mb-4 A continuación, se detallan los tipos de niveles de servicio que existen.
-    
-    ImagenInfografica.color-acento-botones
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/portada/imagen-sla.svg', alt='Texto que describa la imagen')
+          p.p-3 La armonía existente entre esta sociedad y el proveedor resulta vital en tanto la ejecución de un proyecto de software requiere horas de implementación, templanza, constancia, además de capacitación a personal operativo o administrativo, dependiendo el caso, siendo elementos evidentemente desgastantes no solo en la ejecución del proceso, sino posteriormente, cuando las personas que interactúan con el programa se enfrentan, sin acompañamiento, a realizar las instrucciones necesarias para operar, siendo ese instante, cuando surgen dudas, anomalías, inconsistencias, confusión con las opciones, etc., generando, sin lugar a dudas, el momento oportuno para poner a disposición todo el equipo de soporte técnico por parte del proveedor, para atender las necesidades recurrentes encontradas por los operarios.
           
-
-      .tarjeta.bloque-texto-color-puntos-calientes.p-3.p-md-3(x="50%" y="5%" numero="1")
-        .h5.mb-2.mt-6.bloque-texto-color-puntos-calientes
-          span 1. 
-          | SLA basado en el cliente
-        p Consiste en acuerdos estipulados por el cliente que utiliza el servicio, es decir, el cliente que recibe la asistencia determina cláusulas o restricciones dependiendo de sus necesidades. Normalmente, los proveedores fijan acuerdos generales para todo tipo de solicitante, sin embargo, pueden crear especificaciones distintas para cada cliente que desee implementar medidas diferentes a las generalizadas. Un ejemplo de este tipo de SLA es un proveedor de soporte técnico, de hardware y software, que tenga, según las necesidades de sus clientes, un SLA para hardware, otro para software, otro para infraestructura de telecomunicaciones, etc., e incluya un cliente nuevo que no acceda al SLA anterior, debido a sus políticas, deberá crear acuerdos para este cliente en específico.
-
-      .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="20%" y="73%" numero="2")
-        .h5.mb-2.bloque-texto-color-puntos-calientes
-          span 2. 
-          | SLA basado en el servicio
-        p Es un acuerdo realizado por el proveedor que aplica para todos los clientes, agencias, empresas o personas que reciben su servicio. En este tipo de acuerdos se deben considerar pros y contras, dado que los clientes no podrán modificarlo según sus necesidades. Teniendo en cuenta esto, un SLA basado en servicios es proporcionado para todos los clientes y no para uno particular. Por ejemplo, para una empresa que provee software y que sus clientes obtienen el soporte de tal plataforma, uno de los puntos del acuerdo para todos sus clientes sería la atención al público con un horario no modificable de 09:00 am a 05:00 pm, y quienes soliciten este servicio antes o después del horario acordado, no podrán resolver el inconveniente presentado.
-
-      .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="80%" y="73%" numero="3")
-        .h5.mb-2.bloque-texto-color-puntos-calientes
-          span 3. 
-          | SLA multinivel
-        p Este nivel de servicio es ejecutable y adaptable tanto a las necesidades del cliente como a las descritas por el proveedor, es decir, se pueden agregar condiciones según las necesidades del cliente, así como parte de los acuerdos estandarizados del proveedor. Estos SLA tienden a ser más utilizados por la forma en la que se adaptan según las necesidades de los implicados.
-  
-
-
-  //Acordeon
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4 El SLA multinivel tiene tres niveles:
-    br
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Nivel corporativo")
-        .col-md-6.mb-4.mb-md-0
-          p Se enfoca en las empresas y las necesidades que tienen sus áreas o departamentos para resolver casos específicos dentro de la compañía.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/portada/imagen-nivel-corporativo.svg', alt='Texto que describa la imagen')
+        
+        .col-md.col-lg-6
+          .tarjeta.tarjeta--blanca
+            img(data-aos="fade-left")(src="@/assets/curso/portada/imagen1-tema1.svg")
             
-      .row(titulo="Nivel del cliente")
-        .col-md-6.mb-4.mb-md-0
-          p Tiene prioridad en los clientes o grupo de clientes, e incluye todos los requerimientos y servicios que se prestan a este grupo de solicitantes en particular.
         
-        .col-md-6
-          figure
-            img(src='@/assets/curso/portada/imagen-nivel-del-cliente.svg', alt='Texto que describa la imagen')
+
+      .row.p-4.p-md-5.bloque-texto-slider-imagen-de-fondo
+
+        .row.justify-content-around.align-items-center
+          
+          .col-md.col-lg-5
+
+              img(data-aos="fade-left")(src="@/assets/curso/portada/imagen2-tema1.svg")
+
+          .col-md.col-lg-7
+
+            p.p-2 Debe establecerse un contrato entre cliente y proveedor que permita identificar con facilidad los acuerdos que se lleven a cabo entre las dos partes y la forma de operar en los servicios de soporte porque de esto depende el funcionamiento de los procesos internos de cada empresa.
+            .bloque-texto-color.p-3
+              p.mb-0 En ese documento se fijan con claridad las responsabilidades y límites de los involucrados para evitar cuellos de botella de quienes reciben asistencia, la cual se debe prestar de manera adecuada y con la mayor prestación posible. Los acuerdos suministran la información necesaria para mejorar todos los procesos de soporte que rigen una empresa, desde información a bases de datos, soporte de hardware a software, de usuarios convencionales a privilegiados, entre otros.
+    
+      .row.p-4.p-md-5
+
+        .row.justify-content-around.align-items-center
+          .col-lg-6
+            .bloque-texto-color.p-3
+              p Las correctas herramientas y prácticas usadas por el grupo desarrollador para actualizar una funcionalidad en el sistema, como realizar pruebas y despliegues, escalamientos en la infraestructura del software, en caso que se requiera, o garantizar el funcionamiento emprendido a nivel de servicio con el usuario final, son procesos clave en los niveles de servicio técnico que dan fiabilidad a los clientes, percibiendo apoyo en el suministro de esa prioridad.
+          
+          .col-lg-6
+            .tarjeta.tarjeta--blanca.p-3
+              img(data-aos="fade-left")(src="@/assets/curso/portada/imagen3-tema1.svg")
+
+
+      .row.p-4.p-md-5
+
+        #tipos
+        .titulo-segundo.color-acento-botones
+          h2 Tipos
+        
+        .cajon.color-secundario.p-4
+          .row.justify-content-around.align-items-center
+            .col-6.col-sm-4.col-md-2.mb-4.mb-md-0
+              img(src="@/assets/curso/portada/imagen-tipos.svg")
+
+            .col-md.col-lg-8
+
+              p.mb-4 Los niveles de servicio indican una negociación entre dos partes que intercambian fuerza laboral, una de las partes brinda atención y la otra la recibe, compartiendo responsabilidades conjuntas que garantizan la magnitud del servicio prestado.
+
+
+      // Infografia de punto caliente
+      .row.p-4.p-md-5
       
-      .row(titulo="Nivel del servicio")
-        .col-md-6.mb-4.mb-md-0
-          p Es usado cuando los servicios no están dentro de lo establecido en el estándar con el cliente. Se deben tener en cuenta los requerimientos que contemplan los servicios prestados por el proveedor.
+        p.mb-4 A continuación, se detallan los tipos de niveles de servicio que existen.
         
-        .col-md-6
-          figure
-            img(src='@/assets/curso/portada/imagen-nivel-de-servicio.svg', alt='Texto que describa la imagen')
+          
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/portada/imagen-sla.svg', alt='Texto que describa la imagen')
+              figcaption Infografia 1
 
-  //Infografia cómo hacer un nivel de servicio
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+          .tarjeta.bloque-texto-color-puntos-calientes.p-3.p-md-3(x="50%" y="5%" numero="1")
+            .h5.mb-2.mt-6.bloque-texto-color-puntos-calientes
+              span 1. 
+              | SLA basado en el cliente
+            p Consiste en acuerdos estipulados por el cliente que utiliza el servicio, es decir, el cliente que recibe la asistencia determina cláusulas o restricciones dependiendo de sus necesidades. Normalmente, los proveedores fijan acuerdos generales para todo tipo de solicitante, sin embargo, pueden crear especificaciones distintas para cada cliente que desee implementar medidas diferentes a las generalizadas. Un ejemplo de este tipo de SLA es un proveedor de soporte técnico, de hardware y software, que tenga, según las necesidades de sus clientes, un SLA para hardware, otro para software, otro para infraestructura de telecomunicaciones, etc., e incluya un cliente nuevo que no acceda al SLA anterior, debido a sus políticas, deberá crear acuerdos para este cliente en específico.
 
+          .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="20%" y="68%" numero="2")
+            .h5.mb-2.bloque-texto-color-puntos-calientes
+              span 2. 
+              | SLA basado en el servicio
+            p Es un acuerdo realizado por el proveedor que aplica para todos los clientes, agencias, empresas o personas que reciben su servicio. En este tipo de acuerdos se deben considerar pros y contras, dado que los clientes no podrán modificarlo según sus necesidades. Teniendo en cuenta esto, un SLA basado en servicios es proporcionado para todos los clientes y no para uno particular. Por ejemplo, para una empresa que provee software y que sus clientes obtienen el soporte de tal plataforma, uno de los puntos del acuerdo para todos sus clientes sería la atención al público con un horario no modificable de 09:00 am a 05:00 pm, y quienes soliciten este servicio antes o después del horario acordado, no podrán resolver el inconveniente presentado.
 
-    #nivel_de_servicio
-    .titulo-segundo.color-acento-botones
-      h2 Cómo hacer un nivel de servicio
+          .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="80%" y="68%" numero="3")
+            .h5.mb-2.bloque-texto-color-puntos-calientes
+              span 3. 
+              | SLA multinivel
+            p Este nivel de servicio es ejecutable y adaptable tanto a las necesidades del cliente como a las descritas por el proveedor, es decir, se pueden agregar condiciones según las necesidades del cliente, así como parte de los acuerdos estandarizados del proveedor. Estos SLA tienden a ser más utilizados por la forma en la que se adaptan según las necesidades de los implicados.
+      
 
-    p.mb-4 Para crear un buen nivel de servicio se deben tener en cuenta los siguientes pasos:
+        .row.p-4.p-md-5
+          p.mb-4 El SLA multinivel tiene tres niveles:
+          br
 
-      .row.justify-content-around.align-items-center
-        .col-12.col-sm-10.col-md-8.mb-8.mb-md-0
-          img(src="@/assets/curso/portada/infografia.svg")
-
-
-  //Tarjetas avatar horizontales
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    p.mb-4 De igual forma, se deben tener en cuenta las prácticas adecuadas para la implementación y ejecución del SLA.
-    
-    .row.justify-content-center.mb-5
-
-      .col-lg-9.position-relative
-        
-        .avatar
-        
-            .crd.crd--avatarHorizontal.crd--first.bloque-texto-imagen-izquierda.py-4
-              .row.align-items-center
-                
-                .col-2
-                    figure
-                    img(src="@/assets/curso/portada/imagen-pensar-de-afuera-hacia-adentro.svg", alt="alt").img100.imagen-izquierda-tarjeta(data-aos="fade-left")
-                .col-8
-                    h5 Calidad de la información
-                    p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
-            br
-
-        .crd.crd--avatarHorizontal.bloque-texto-imagen-izquierda.py-4
-          .row.align-items-center
-
-            .col-2
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+            .row(titulo="Nivel corporativo")
+              .col-md-6.mb-4.mb-md-0
+                p Se enfoca en las empresas y las necesidades que tienen sus áreas o departamentos para resolver casos específicos dentro de la compañía.
+            
+              .col-md-6
                 figure
-                img(src="@/assets/curso/portada/imagen-Impulsar-comportamientos-deseados.svg", alt="alt").img100.imagen-izquierda-tarjeta-2(data-aos="fade-left")
-            .col-8
-                h5 Aplicación de técnicas
-                p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
+                  img(src='@/assets/curso/portada/imagen-nivel-corporativo.svg', alt='Texto que describa la imagen')
+                  //figcaption Leyenda de la imagen
+            
+            .row(titulo="Nivel del cliente")
+              .col-md-6.mb-4.mb-md-0
+                p Tiene prioridad en los clientes o grupo de clientes, e incluye todos los requerimientos y servicios que se prestan a este grupo de solicitantes en particular.
+            
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/portada/imagen-nivel-del-cliente.svg', alt='Texto que describa la imagen')
+                  //figcaption Leyenda de la imagen
+
+            .row(titulo="Nivel del servicio")
+              .col-md-6.mb-4.mb-md-0
+                p Tiene prioridad en los clientes o grupo de clientes, e incluye todos los requerimientos y servicios que se prestan a este grupo de solicitantes en particular.
+            
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/portada/imagen-nivel-de-servicio-tema1.png', alt='Texto que describa la imagen')
+                  //figcaption Leyenda de la imagen
+                  
+            
+
+
+
+      //Infografia cómo hacer un nivel de servicio
+      .row.p-4.p-md-5
+
+
+        #nivel_de_servicio
+        .titulo-segundo.color-acento-botones
+          h2 Cómo hacer un nivel de servicio
+
+        p.mb-4 Para crear un buen nivel de servicio se deben tener en cuenta los siguientes pasos:
+
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Cómo hacer un nivel de servicio
+            
+          .row.justify-content-around.align-items-center
+            .col-12.col-sm-10.col-md-8.mb-8.mb-md-0
+              img(src="@/assets/curso/portada/infografia.svg")
+              figcaption Infografia 2
+
+      //Tarjetas avatar horizontales
+      .row.p-4.p-md-5
+        
+        p.mb-4 De igual forma, se deben tener en cuenta las prácticas adecuadas para la implementación y ejecución del SLA.
         br
+        
+        .row.justify-content-center.mb-5
 
-        .crd.crd--avatarHorizontal.crd--last.bloque-texto-imagen-izquierda.py-4
-          .row.align-items-center
+          .col-lg-9.position-relative
             
-            .col-2
-                figure
-                  img(src="@/assets/curso/portada/imagen-usar-definiciones-precisas.svg", alt="alt").img100.imagen-izquierda-tarjeta-3(data-aos="fade-left")
-            .col-8
-                h5 Comunicación correcta de los resultados
-                p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
+                //.crd.crd--avatarHorizontal.crd--first.bloque-texto-imagen-izquierda.py-4
+                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
+                    
+                  .col-2
+                      .tarjeta.tarjeta--blanca
+                        img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-pensar-de-afuera-hacia-adentro.svg", alt="alt").img100.imagen-izquierda-tarjeta
+                  .col-8
+                        h5 Calidad de la información
+                        p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
+                
+                br
+
+                //.crd.crd--avatarHorizontal.bloque-texto-imagen-izquierda.py-4
+                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
+
+                  .col-2
+                    .tarjeta.tarjeta--blanca
+                      img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-Impulsar-comportamientos-deseados.svg", alt="alt").img100.imagen-izquierda-tarjeta-2
+                  .col-8
+                      h5 Aplicación de técnicas
+                      p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
+                
+                br
+
+                //.crd.crd--avatarHorizontal.crd--last.bloque-texto-imagen-izquierda.py-4
+                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
+                
+                  .col-2
+                    .tarjeta.tarjeta--blanca
+                      img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-usar-definiciones-precisas.svg", alt="alt").img100.imagen-izquierda-tarjeta-3
+                  .col-8
+                      h5 Comunicación correcta de los resultados
+                      p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
 
 
-  
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #acuerdos_de_niveles_de_servicio_en_soporte_tecnico
-    .titulo-segundo.color-acento-botones
-      h2 Acuerdos de niveles de servicio en soporte técnico
+      //Slider
+      .row.p-4.p-md-5
+        
+        #acuerdos_de_niveles_de_servicio_en_soporte_tecnico
+        .titulo-segundo.color-acento-botones
+          h2 Acuerdos de niveles de servicio en soporte técnico
 
-    SlyderB.mb-5(:datos="datosSlyder").bloque-texto-slider-imagen-de-fondo.p-4
+        SlyderB.mb-5(:datos="datosSlyder").bloque-texto-slider-imagen-de-fondo.p-4
 
 
 

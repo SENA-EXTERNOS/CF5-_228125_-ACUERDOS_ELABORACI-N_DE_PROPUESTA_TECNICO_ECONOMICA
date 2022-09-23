@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'En el presente componente formativo se abordarán temas relacionados con los acuerdos de niveles de servicio, se estudiará qué es una propuesta económica y cuál es la información que debe llevar, así como la importancia de los acuerdos de confidencialidad y cómo se deben realizar.',
     imagenBannerPrincipal: require('@/assets/curso/portada/imagen-portada-mujer.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
 
     imagenesDecorativasBanner: [
       {
@@ -212,7 +212,7 @@ export default {
     {
       termino: 'Confidencialidad',
       significado:
-        'se refiere a la forma en la que es protegida la información personal, a la cual no se puede acceder sin autorización',
+        'se refiere a la forma en la que es protegida la información personal, a la cual no se puede acceder sin autorización.',
     },
     {
       termino: 'Cláusula',

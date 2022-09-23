@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
 
   //La animacion es solo el "flip-up" o tambien incluye los elementos flotantes como en la pagina principal?
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(data-aos="flip-up")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="flip-up")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -22,7 +22,7 @@
             img(src="@/assets/curso/portada/imagen2-portada2.svg")
       
     
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4
 
     #presentacion
     .titulo-segundo.color-acento-botones
@@ -134,13 +134,13 @@
 
         .col-md.col-lg-6
 
-          p.mb-1 Dando cumplimiento a los estándares de calidad y presentación, los formatos deben estar bien estructurados, presentados con los logos (membrete) que identifiquen a la institución, la fecha en la cual se redacta el formato y el destinatario (participante). Se presenta de forma que el receptor esté conforme y a gusto con la información recibida, de esta forma se garantiza acercamiento y buen trato desde el principio. Una buena relación entre las partes que lideran el proceso se enmarca en las buenas prácticas enriquecedoras que fomenten el acercamiento a las compañías.
-          p.mb-1 La siguiente imagen presenta un modelo del formato de carta de aceptación. 
+          p.p-2 Dando cumplimiento a los estándares de calidad y presentación, los formatos deben estar bien estructurados, presentados con los logos (membrete) que identifiquen a la institución, la fecha en la cual se redacta el formato y el destinatario (participante). Se presenta de forma que el receptor esté conforme y a gusto con la información recibida, de esta forma se garantiza acercamiento y buen trato desde el principio. Una buena relación entre las partes que lideran el proceso se enmarca en las buenas prácticas enriquecedoras que fomenten el acercamiento a las compañías.
+          p.p-2 La siguiente imagen presenta un modelo del formato de carta de aceptación. 
 
           
           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/carta_de_aceptacion.docx')" target="_blank" type="application/pdf")
             span Descargar
-            i.fas.fa-file-download
+              i.fas.fa-file-download
 
 </template>
 

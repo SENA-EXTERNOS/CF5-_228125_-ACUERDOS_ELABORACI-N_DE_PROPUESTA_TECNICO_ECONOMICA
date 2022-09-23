@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -13,7 +13,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+      figcaption Video: Leyenda del video
 
   
   
@@ -30,19 +30,17 @@
           p.mb-4 Conforme se encuentren irregularidades en los contratos y proyectos llevados a cabo según los acuerdos de confidencialidad, la legislación determinará el grado de afectación basados en la normativa de cada nación, en tanto el afectado actuará de forma judicial contra las afectaciones e incumplimientos de lo pactado en el contrato, con el fin de defender los bienes que le confieren. 
       
       .col-4
-        img(src="@/assets/curso/portada/imagen-legislacion.svg")
-  br
-  br
+        img(src="@/assets/curso/portada/imagen-legislacion.png")
   
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-0(data-aos="flip-up")  
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="flip-up")  
   
 
     .row
       
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/portada/imagen2-legislacion.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/portada/imagen2-legislacion.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 La propiedad intelectual en la industria del software usualmente abarca en sus contratos la forma de proceder bajo la ley en caso de eventualidades inesperadas o de incumplimientos en el contrato o proyecto ejecutados en cualquier modalidad, es decir, cuando exista actividad irregular en los procesos establecidos, la normativa actúa de forma automática sobre las inestabilidades e incurrencia y, a su vez, pena al ente que infringe lo estipulado.
@@ -61,7 +59,7 @@
       .col-4
         .tarjeta.tarjeta--blanca(data-aos="zoom-in")
         
-          img(src="@/assets/curso/portada/imagen3-legislacion.svg")
+          img(src="@/assets/curso/portada/imagen3-legislacion.png")
 
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -70,7 +68,7 @@
 
       .col-4
         .tarjeta.tarjeta--blanca(data-aos="zoom-in")
-          img(src="@/assets/curso/portada/imagen4-legislacion.svg")
+          img(src="@/assets/curso/portada/imagen4-legislacion.png")
 
       .col-7
         
@@ -92,14 +90,14 @@
     
       .col-4
         .tarjeta.tarjeta--blanca(data-aos="zoom-in")
-          img(src="@/assets/curso/portada/imagen1-duracion.svg")
+          img(src="@/assets/curso/portada/imagen1-duracion.png")
 
       .col-6
         .cajon.bloque-texto-color
           span Mientras mayor sea el plazo o duración del acuerdo de confidencialidad, mayor seguridad habrá en la información de la empresa correspondiente. 
         | Al cumplirse el tiempo de vencimiento para resguardar la información por parte del ente encargado de publicarla, se debe confirmar que no habrá efectos negativos, daños o perjuicios para la compañía de origen, garantizando que tal información sea poco relevante al momento. Por lo anterior, es necesario determinar en los acuerdos un tiempo relativamente prudente y extenso, en el cual se deba divulgar la información como contenido general, de esta manera, se asegura que no se generen contingencias entre las partes que conforman el contrato establecido.
 
-
+  
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.justify-content-around.align-items-center
@@ -113,6 +111,7 @@
         .tarjeta.tarjeta--blanca(data-aos="zoom-in")
           img(src="@/assets/curso/portada/imagen2-duracion.svg")
 
+  
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="zoom-in")
 
     #tipos
@@ -123,7 +122,7 @@
       
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/portada/imagen1-tipos-tema3.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/portada/imagen1-tipos-tema3.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Son muchos los temas legales, contractuales y de interés jurídico tratados en los acuerdos de confidencialidad perteneciente a los entes que hacen parte de un contrato en curso, en el que prima la mesura, la cordialidad, la franqueza y el deseo de impulsar tal proyecto. Por este motivo, se mantienen tanto a ambas partes de la relación, como a los entes de control, verificando que no se incurra en la divulgación de material sensible perteneciente a ninguna de las partes.
@@ -131,6 +130,7 @@
   
   //  Cajones de texto acuerdos de confidencialidad 
   // La animacion de la tarjeta principal y las otras estaba haciendo bloquear el navegador 
+  //
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-left")
   
     p.mb-5 Se puede determinar que existen dos tipos de :
@@ -140,7 +140,7 @@
     .row.justify-content-around.align-items-center
 
         .col-2.col-sm-2.col-md-1.mb-2.mb-md-0
-            img(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-unidireccional.svg").imagen-tipos-acuerdos-confidencialidad
+            img(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-unidireccional.png").imagen-tipos-acuerdos-confidencialidad
 
         .col-10.p-4
           .cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad       
@@ -152,33 +152,33 @@
     .row.justify-content-around.align-items-center
     
         .col-2.col-sm-2.col-md-0.mb-2.mb-md-0
-          img(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-bidireccional.svg").imagen-tipos-acuerdos-confidencialidad-2
+          img(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-bidireccional.png").imagen-tipos-acuerdos-confidencialidad-2
 
         .col-10.p-4
           .cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad-2
             h4 Bidireccional
             p Las organizaciones o entes comprendidos en este tipo de acuerdo deben suministrar, ambos, información relevante, sensible, confidencial y delicada sin distinción alguna. Este acuerdo se usa con mayor frecuencia que el anterior, aunque, todos funcionan en común acuerdo.
           
-  br
-
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="zoom-in")
+  //          
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     #clausulas
     .titulo-segundo.color-acento-botones
       h2 Cláusulas
-      
-    figure
-      img(src='@/assets/curso/portada/imagen-clausulas-tema3.svg', alt='Texto que describa la imagen')
+    .row
     
-    .row.justify-content-around.p-4
+      figure
+        img(data-aos="zoom-in")(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
       
-    
-        .tarjeta.bloque-texto-color-clausulas.p-3
-          p.mb-4 Teniendo en cuenta los acuerdos de confidencialidad, es necesario aplicar cláusulas o condiciones adicionales para mantener la seguridad e integridad sobre los datos de las firmas que establecen una relación de común acuerdo. Esto garantiza un nivel de confianza sobre la información suministrada por las partes que intervienen en el contrato y, a su vez, las cláusulas se complementan con los acuerdos pactados mencionados anteriormente, con el fin de proteger todo lo relacionado con los datos, información, clientes, empleados, bases de datos, productos, etc., lo más importante de las cláusulas son el compromiso adquirido y el nivel de confianza que sientan las partes vinculadas.
+      .row.justify-content-around.p-4
         
-        
-        .bloque-texto-mitad-color-izquierda.p-3
-          span En el ámbito de desarrollo de software suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.
+      
+          .tarjeta.bloque-texto-color-clausulas.p-3
+            p.mb-4 Teniendo en cuenta los acuerdos de confidencialidad, es necesario aplicar cláusulas o condiciones adicionales para mantener la seguridad e integridad sobre los datos de las firmas que establecen una relación de común acuerdo. Esto garantiza un nivel de confianza sobre la información suministrada por las partes que intervienen en el contrato y, a su vez, las cláusulas se complementan con los acuerdos pactados mencionados anteriormente, con el fin de proteger todo lo relacionado con los datos, información, clientes, empleados, bases de datos, productos, etc., lo más importante de las cláusulas son el compromiso adquirido y el nivel de confianza que sientan las partes vinculadas.
+          
+          
+          .bloque-texto-mitad-color-izquierda.p-3
+            span En el ámbito de desarrollo de software suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.
 
 
 

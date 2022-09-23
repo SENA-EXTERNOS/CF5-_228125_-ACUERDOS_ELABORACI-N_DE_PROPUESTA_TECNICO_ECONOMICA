@@ -4,7 +4,7 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 55%
+    top: 59%
     right: 86%
     width: 35%
 
@@ -15,13 +15,13 @@
     right: 15%
   
   &-3
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float3 2.8s ease-in-out infinite alternate
     position: absolute
     top: 3%
     right: 195%
     width: 25%
   &-4
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float3 2.8s ease-in-out infinite alternate
     position: absolute
     top: 5%
     right: 87%
@@ -38,9 +38,7 @@
     top: 5%
     right: 2%
 
-.banner-principal--componente
-
-
+  
 
 
 @keyframes float1
@@ -59,8 +57,21 @@
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateY(10px)
 
-  
+  100%
+    transform: translateY(0px)
+
+@keyframes float3
+  0%
+    transform: translateX(10px)
+
+  100%
+    transform: translateX(0px)
+
+
 .bloque-texto-color
   background: #DAF7F2 
   
@@ -108,21 +119,21 @@
 .imagen-izquierda-tarjeta
   
   position: absolute
-  top: 6%
+  top: 7%
   right: 91%
   width: 12%
 
 .imagen-izquierda-tarjeta-2
   
   position: absolute
-  top: 42%
+  top: 45%
   right: 91%
   width: 12%
 
 .imagen-izquierda-tarjeta-3
   
   position: absolute
-  top: 75%
+  top: 76%
   right: 91%
   width: 12%
 
@@ -160,5 +171,13 @@
   width: 15%
   z-index: 1
 
-
+.banner-principal__img
+  
+  display: flex
+  flex-direction: column
+  padding-top: 5rem rem !important;
+  padding-bottom: 0rem !important;
+  
+  
+  
   
