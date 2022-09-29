@@ -98,6 +98,8 @@
           p.mb-4 El SLA multinivel tiene tres niveles:
           br
 
+          
+
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="Nivel corporativo")
               .col-md-6.mb-4.mb-md-0
@@ -105,7 +107,7 @@
             
               .col-md-6
                 figure
-                  img(src='@/assets/curso/portada/imagen-nivel-corporativo.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/portada/imagen-nivel-corporativo-nueva.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
             
             .row(titulo="Nivel del cliente")
@@ -119,7 +121,7 @@
 
             .row(titulo="Nivel del servicio")
               .col-md-6.mb-4.mb-md-0
-                p Tiene prioridad en los clientes o grupo de clientes, e incluye todos los requerimientos y servicios que se prestan a este grupo de solicitantes en particular.
+                p Es usado cuando los servicios no están dentro de lo establecido en el estándar con el cliente. Se deben tener en cuenta los requerimientos que contemplan los servicios prestados por el proveedor.
             
               .col-md-6
                 figure
@@ -148,60 +150,78 @@
               img(src="@/assets/curso/portada/infografia.svg")
               figcaption Infografia 2
 
+
       //Tarjetas avatar horizontales
       .row.p-4.p-md-5
         
         p.mb-4 De igual forma, se deben tener en cuenta las prácticas adecuadas para la implementación y ejecución del SLA.
         br
-        
-        .row.justify-content-center.mb-5
-
-          .col-lg-9.position-relative
-            
-                //.crd.crd--avatarHorizontal.crd--first.bloque-texto-imagen-izquierda.py-4
-                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
-                    
+        TabsC.color-acento-contenido.mb-5
+          .py-3.py-md-4(titulo="Pensar de afuera hacia dentro")
+            .col-lg-12.position-relative
+              .row.justify-content-center.bloque-texto-imagen-izquierda.py-4      
                   .col-2
                       .tarjeta.tarjeta--blanca
-                        img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-pensar-de-afuera-hacia-adentro.svg", alt="alt").img100.imagen-izquierda-tarjeta
-                  .col-8
-                        h5 Calidad de la información
-                        p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
+                        img(src="@/assets/curso/portada/imagen-pensar-de-afuera-hacia-adentro.svg", alt="alt").img100.imagen-izquierda-tarjeta
+                  .col-8.p-4
+                        h5 Pensar de afuera hacia dentro
+                        p Siempre se debe pensar a favor de los clientes, dado que son quienes usarán el servicio y quienes pueden evaluarlo de acuerdo a la atención prestada por el proveedor. Al pensar de afuera hacia dentro, se fijan y se conocen las necesidades del cliente con mayor claridad, para así resolverlas fácilmente. 
                 
-                br
-
-                //.crd.crd--avatarHorizontal.bloque-texto-imagen-izquierda.py-4
-                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
-
+            
+          .py-3.py-md-4(titulo="Impulsar comportamientos deseados")
+            .col-lg-12.position-relative
+              .row.justify-content-center.bloque-texto-imagen-izquierda.py-4      
                   .col-2
-                    .tarjeta.tarjeta--blanca
-                      img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-Impulsar-comportamientos-deseados.svg", alt="alt").img100.imagen-izquierda-tarjeta-2
-                  .col-8
-                      h5 Aplicación de técnicas
-                      p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
-                
-                br
-
-                //.crd.crd--avatarHorizontal.crd--last.bloque-texto-imagen-izquierda.py-4
-                .row.align-items-center.bloque-texto-imagen-izquierda.py-4
-                
+                      .tarjeta.tarjeta--blanca
+                        img(src="@/assets/curso/portada/imagen-Impulsar-comportamientos-deseados.svg", alt="alt").img100.imagen-izquierda-tarjeta-2
+                  .col-8.p-4
+                        h5 Impulsar comportamientos deseados
+                        p Un buen comportamiento hace referencia a una buena estructuración de los niveles de servicio y conlleva a la buena práctica para solucionar y abordar cualquier necesidad que tenga el cliente con el fin de resolverlas de manera rápida y eficaz. Por otro lado, se debe tener en cuenta que hay comportamientos perjudiciales y se debe tener en cuenta cuando ocurren y, sobre todo, solucionarlos de la mejor forma posible.
+            
+            
+          .py-3.py-md-4(titulo="Usar definiciones precisas")
+            .col-lg-12.position-relative
+              .row.justify-content-center.bloque-texto-imagen-izquierda.py-4      
                   .col-2
-                    .tarjeta.tarjeta--blanca
-                      img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-usar-definiciones-precisas.svg", alt="alt").img100.imagen-izquierda-tarjeta-3
-                  .col-8
-                      h5 Comunicación correcta de los resultados
-                      p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
+                      .tarjeta.tarjeta--blanca
+                        img(src="@/assets/curso/portada/imagen-usar-definiciones-precisas.svg", alt="alt").img100.imagen-izquierda-tarjeta
+                  .col-8.p-4
+                        h5 Usar definiciones precisas
+                        p Se debe ser cuidadoso al momento de redactar los niveles de servicio, un mal concepto o un mal escrito puede ser interpretado como una falla y, dependiendo el caso, afectará la atención respecto a las necesidades de cliente.
 
 
-      //Slider
-      .row.p-4.p-md-5
-        
+      separador
+
+      .row.justify-content-around.align-items-center
+
         #acuerdos_de_niveles_de_servicio_en_soporte_tecnico
         .titulo-segundo.color-acento-botones
           h2 Acuerdos de niveles de servicio en soporte técnico
 
-        SlyderB.mb-5(:datos="datosSlyder").bloque-texto-slider-imagen-de-fondo.p-4
+        .col-md.col-lg-7
+          .bloque-texto-color.p-3
+            p Como se mencionó anteriormente, los acuerdos o SLA son contratos entre dos entes, un proveedor que brinda el servicio y un cliente que lo recibe, que contienen tanto las cláusulas, circunstancias y condiciones bajo las cuales se debe atender al cliente, como los tiempos de respuesta por parte del soporte técnico y la forma en la que se establecen los servicios, especialmente, los niveles en que se responde al cliente la atención solicitada.
 
+          p.p-3 En estos casos, se hace necesario para los SLA de soporte técnico contar con fluidez y flexibilidad en los horarios de atención brindados a las empresas que atienden clientes finales, el soporte técnico va de la mano con el funcionamiento de cada equipo de cómputo o hardware donde se gestiona la información, operado por los usuarios que a diario realizan transacciones a través de portales o aplicaciones. Por otro lado, está el software, el cual es indispensable para operar, en este caso, se tienen en cuenta tanto la base de datos como la interfaz gráfica y la respuesta de servidores que proviene de consultas realizadas a la base de datos a través de aplicaciones cliente-servidor o arquitecturas basadas en servicios. En cualquiera de los casos, el tiempo de respuesta ante un colapso del sistema, contribuye a la canalización de la atención final de clientes o solicitantes de un servicio particular.
+          
+        
+        .col-md.col-lg-5
+          .tarjeta.tarjeta--blanca
+            img(data-aos="fade-left")(src="@/assets/curso/portada/imagen-1-nivel-de-servicio-nueva.png")
+      
+
+            .container.tarjeta.tarjeta--blanca.p-3(data-aos="fade-right")
+      br
+      .row.justify-content-around.align-items-center
+          
+          .bloque-texto-g.color-secundario.p-4.p-sm-4.p-md-5
+
+            .bloque-texto-g__img(data-aos="fade-left")(
+                :style="{'background-image': `url(${require('@/assets/curso/portada/imagen-2-nivel-de-servicio.png')})`}"
+            )
+            
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Un buen SLA, considera las condiciones y necesidades de la compañía y asigna un proveedor de soporte técnico que siga los acuerdos y responda a cada requerimiento, en el tiempo y espacio preciso, permite que las empresas sean más competentes ante un mundo globalizado, lleno de entidades que brindan servicios similares. Además de contar con buen soporte técnico, se espera eficiencia en los servicios ofrecidos al consumidor final y, sobre todo, mayor fluidez, unida a un buen desempeño diario y equitativo en el trabajo.
 
 
 
@@ -213,24 +233,6 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
-    datosSlyder: [
-      {
-        //Componente nuevo
-        texto:
-          'Como se mencionó anteriormente, los acuerdos o SLA son contratos entre dos entes, un proveedor que brinda el servicio y un cliente que lo recibe, que contienen tanto las cláusulas, circunstancias y condiciones bajo las cuales se debe atender al cliente, como los tiempos de respuesta por parte del soporte técnico y la forma en la que se establecen los servicios, especialmente, los niveles en que se responde al cliente la atención solicitada.',
-        imagen: require('@/assets/curso/portada/imagen1-nivel-de-servicio.png'),
-      },
-      {
-        texto:
-          'En estos casos, se hace necesario para los SLA de soporte técnico contar con fluidez y flexibilidad en los horarios de atención brindados a las empresas que atienden clientes finales, el soporte técnico va de la mano con el funcionamiento de cada equipo de cómputo o hardware donde se gestiona la información, operado por los usuarios que a diario realizan transacciones a través de portales o aplicaciones. Por otro lado, está el software, el cual es indispensable para operar, en este caso, se tienen en cuenta tanto la base de datos como la interfaz gráfica y la respuesta de servidores que proviene de consultas realizadas a la base de datos a través de aplicaciones cliente-servidor o arquitecturas basadas en servicios. En cualquiera de los casos, el tiempo de respuesta ante un colapso del sistema, contribuye a la canalización de la atención final de clientes o solicitantes de un servicio particular.',
-        imagen: require('@/assets/curso/portada/imagen2-nivel-de-servicio.png'),
-      },
-      {
-        texto:
-          'Un buen SLA, considera las condiciones y necesidades de la compañía y asigna un proveedor de soporte técnico que siga los acuerdos y responda a cada requerimiento, en el tiempo y espacio preciso, permite que las empresas sean más competentes ante un mundo globalizado, lleno de entidades que brindan servicios similares. Además de contar con buen soporte técnico, se espera eficiencia en los servicios ofrecidos al consumidor final y, sobre todo, mayor fluidez, unida a un buen desempeño diario y equitativo en el trabajo',
-        imagen: require('@/assets/curso/portada/imagen3-nivel-de-servicio.png'),
-      },
-    ],
   }),
   mounted() {
     this.$nextTick(() => {

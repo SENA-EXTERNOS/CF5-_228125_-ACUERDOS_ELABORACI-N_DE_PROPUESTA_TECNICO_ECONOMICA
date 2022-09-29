@@ -5,15 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.bloque-texto-color-blanco
       h1 Introducción
 
     .row.justify-content-around.align-items-center
 
       .col-md.col-lg-7
         
-        p.p-1 Bienvenido al estudio del presente componente formativo en el que encontrará diferentes temáticas orientadas  al conocimiento de las propuestas económicas relacionadas con los sistemas de información y le brindará los conocimientos necesarios acerca de los contratos que se llevan a cabo entre el cliente y el proveedor de software, los cuales dan claridad y garantía a la ejecución de los niveles de servicio técnico acordados en el proyecto e implican una parte fundamental en la puesta en marcha de la negociación iniciada en el área de análisis y diseño.
-        p.p-1 Dicho esto, y no menos importante, es necesario tener en cuenta la propuesta de valor que supone determinar las características fundamentales del proceso de desarrollo de software, además del tema contractual y legal del procedimiento a realizar entre usuario y desarrollador de aplicaciones, quien procederá con una propuesta técnico-económica,  clara y concisa, para solventar las necesidades de cliente. En este documento se deberán fijar los alcances y mediciones del proyecto. Lo invitamos a ver el siguiente video para conocer, de manera general, las temáticas a estudiar en este componente formativo.
+        p.p-1 Apreciado aprendiz, bienvenido a este componente formativo, donde encontrará diferentes temáticas orientadas  al conocimiento de las propuestas económicas relacionadas con los sistemas de información y le brindará los conocimientos necesarios acerca de los contratos que se llevan a cabo entre el cliente y el proveedor de software, los cuales dan claridad y garantía a la ejecución de los niveles de servicio técnico acordados en el proyecto e implican una parte fundamental en la puesta en marcha de la negociación iniciada en el área de análisis y diseño.
+        p.p-1 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
         
       
       .col-md.col-lg-5
