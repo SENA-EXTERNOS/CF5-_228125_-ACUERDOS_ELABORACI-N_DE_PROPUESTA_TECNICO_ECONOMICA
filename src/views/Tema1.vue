@@ -53,7 +53,7 @@
         .titulo-segundo.color-acento-botones
           h2 Tipos
         
-        .cajon.color-secundario.p-4
+        .imagen-tipos.cajon.color-secundario.p-4
           .row.justify-content-around.align-items-center
             .col-6.col-sm-4.col-md-2.mb-4.mb-md-0
               img(src="@/assets/curso/portada/imagen-tipos.svg")
@@ -73,7 +73,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/portada/imagen-sla.svg', alt='Texto que describa la imagen')
-              figcaption Infografia 1
+              //figcaption Infografia 1
 
           .tarjeta.bloque-texto-color-puntos-calientes.p-3.p-md-3(x="50%" y="5%" numero="1")
             .h5.mb-2.mt-6.bloque-texto-color-puntos-calientes
@@ -93,7 +93,7 @@
               | SLA multinivel
             p Este nivel de servicio es ejecutable y adaptable tanto a las necesidades del cliente como a las descritas por el proveedor, es decir, se pueden agregar condiciones según las necesidades del cliente, así como parte de los acuerdos estandarizados del proveedor. Estos SLA tienden a ser más utilizados por la forma en la que se adaptan según las necesidades de los implicados.
       
-
+        //Acordeon
         .row.p-4.p-md-5
           p.mb-4 El SLA multinivel tiene tres niveles:
           br
@@ -104,11 +104,11 @@
             .row(titulo="Nivel corporativo")
               .col-md-6.mb-4.mb-md-0
                 p Se enfoca en las empresas y las necesidades que tienen sus áreas o departamentos para resolver casos específicos dentro de la compañía.
-            
+              
               .col-md-6
-                figure
-                  img(src='@/assets/curso/portada/imagen-nivel-corporativo-nueva.png', alt='Texto que describa la imagen')
-                  //figcaption Leyenda de la imagen
+                  figure
+                    img(src='@/assets/curso/portada/imagen-nivel-corporativo-nueva.png', alt='Texto que describa la imagen')
+                
             
             .row(titulo="Nivel del cliente")
               .col-md-6.mb-4.mb-md-0
@@ -142,13 +142,11 @@
 
         p.mb-4 Para crear un buen nivel de servicio se deben tener en cuenta los siguientes pasos:
 
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Cómo hacer un nivel de servicio
             
           .row.justify-content-around.align-items-center
             .col-12.col-sm-10.col-md-8.mb-8.mb-md-0
               img(src="@/assets/curso/portada/infografia.svg")
-              figcaption Infografia 2
+              //figcaption Infografia 2
 
 
       //Tarjetas avatar horizontales

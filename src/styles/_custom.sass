@@ -15,25 +15,25 @@
     right: 15%
   
   &-3
-    animation: float3 2.8s ease-in-out infinite alternate
+    animation: ease-in-out infinite alternate
     position: absolute
     top: 3%
-    right: 195%
+    right: 200%
     width: 25%
   &-4
-    animation: float3 2.8s ease-in-out infinite alternate
+    animation: float3 10s ease-in-out infinite alternate
     position: absolute
     top: 5%
     right: 87%
     width: 15%
   &-5
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float3 10s ease-in-out infinite alternate
     position: absolute
     top: 75%
     right: 1%
     width: 15%
   &-6
-    animation: float2 2.8s ease-in-out infinite alternate
+    animation: float3 10s ease-in-out infinite alternate
     position: absolute
     top: 5%
     right: 2%
@@ -57,19 +57,48 @@
   100%
     transform: translateY(0px)
 
-@keyframes float2
-  0%
-    transform: translateY(10px)
-
-  100%
-    transform: translateY(0px)
 
 @keyframes float3
   0%
-    transform: translateX(10px)
-
+    //transform: translateX(10px)
+    opacity: 1.0
+  10%
+    opacity: 1.0
+  20%
+    opacity: 1.0
+  30%
+    opacity: 1.0
+  40%
+    opacity: 1.0
+  42%
+    opacity: 1.0
+  44%
+    opacity: 1.0
+  46%
+    opacity: 1.0
+  48%
+    opacity: 1.0
+  50%
+    opacity: 0.0
+  52%
+    opacity: 1.0
+  54%
+    opacity: 1.0
+  56%
+    opacity: 1.0
+  58%
+    opacity: 1.0
+  60%
+    opacity: 1.0
+  70%
+    opacity: 1.0
+  80%
+    opacity: 1.0
+  90%
+    opacity: 1.0
   100%
-    transform: translateX(0px)
+    //transform: translateX(0px)
+    opacity: 1.0
 
 
 .bloque-texto-color
@@ -91,13 +120,12 @@
   color: white !important
 
 .bloque-texto-mitad-color
-  background: linear-gradient(to right, #ffffff 19%, #21CBAE 19%);
+  background: linear-gradient(to right, #ffffff 24%, #d2f5ef 24%);
   
 
 .bloque-texto-mitad-color-izquierda
-  background: linear-gradient(to left, #ffffff 30%, #21CBAE 30%);
-  position: relative;
-  //top: 87%;
+  background: linear-gradient(to left, #ffffff 50%, #d2f5ef 50%);
+  position: relative  
   left: 8%;
   width: 80%
 
@@ -193,17 +221,18 @@
   width: 100%
 
 .texto-tipos-acuerdos-confidencialidad
-  
-  width: 100%
-  margin-right: 5px
+  position: relative
+  width: 90%
+  margin-right: 1em 
+  left: 7%
 
 
 
 .imagen-tipos-acuerdos-confidencialidad
 
   position: absolute
-  top: 29%
-  right: 82%
+  top: 25%
+  right: 78%
   width: 15%
   z-index: 1
 
@@ -211,7 +240,7 @@
 
   position: absolute
   top: 59%
-  right: 82%
+  right: 78%
   width: 15%
   z-index: 1
 
@@ -222,6 +251,67 @@
   padding-top: 5rem rem !important;
   padding-bottom: 0rem !important;
   
+.boton-descargar-formato
+  position: relative
+  background-color: #F4F9FF !important
+  left: 2%
+  width: 65%
+
+.texto-boton-descargar-formato
+  position: relative
+  top: 5%
+  right: 4%
+  font-weight: bold
+  color: #006DF0 !important
+
+
+.imagen-boton-descargar
+  position: relative
+  top: 1%
+  right: 7%
+  width: 8%
   
-  
+.imagen-tipos
+  background-color: #c1d5e5 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom-color: #3BC192 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active:before
+  border-top-color: #3BC192 !important
+
+.color-derecho-alcance-propuesta
+  position: relative
+  right: 1%
+  background-color: #1A7B96
+
+.imagen-alcance-propuesta
+  position: relative
+  width: 100%
+
+.bloque-texto-alcance-propuesta
+  background-color: #FFFFFF
+  position: absolute
+  top: 25%
+  right: 15%
+  width: 105%
+
+
+.bloque-texto-cartas-aceptacion
+  background: linear-gradient(to left, #ffffff 30%, #d2f5ef 30%);
+
+.bloque-de-texto-por-linea
+  background: linear-gradient(#d2f5ef 70%, #ffffff 70%) no-repeat;
+  background-size: calc( 100% - 120px ) calc( 100% - 80px )
+
+//.bloque-texto-comp-texto-linea
+.espacio-derecho-acordeon-sla
+  position: relative
+  top: 0em
+  bottom: 0em
+  width: 100%
+  background-color: white
+
+
+
   

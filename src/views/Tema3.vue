@@ -13,7 +13,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      //figcaption Video: Leyenda del video
     separador
   
   
@@ -56,9 +56,8 @@
           img(src="@/assets/curso/portada/imagen4-legislacion.png")
 
       .col-7
-        
-        .cajon.bloque-texto-color.p-3
-          span Existe una legislación y reglamentación basada en las modificaciones realizadas en el proyecto, que pueden ocurrir bien por cambios inesperados, por mejoras en tecnologías o por requerimientos. Estos casos deben quedar planteado en la documentación y en los acuerdos para evitar incurrir en penalidades más adelante. Sin embargo, en los casos que sea necesario aplicar el cumplimiento de términos y condiciones descrito en los documentos de confidencialidad o legalidad que señalen el ente que los ha incumplido, este debe someterse a una penalidad de daños y perjuicios que supone importes económicos, los cuales dependen de cada caso respecto al contrato inicial.
+        .bloque-de-texto-por-linea.p-3
+          p Existe una legislación y reglamentación basada en las modificaciones realizadas en el proyecto, que pueden ocurrir bien por cambios inesperados, por mejoras en tecnologías o por requerimientos. Estos casos deben quedar planteado en la documentación y en los acuerdos para evitar incurrir en penalidades más adelante. Sin embargo, en los casos que sea necesario aplicar el cumplimiento de términos y condiciones descrito en los documentos de confidencialidad o legalidad que señalen el ente que los ha incumplido, este debe someterse a una penalidad de daños y perjuicios que supone importes económicos, los cuales dependen de cada caso respecto al contrato inicial.
         p.p-3 Mientras mayor sea el plazo o duración del acuerdo de confidencialidad, mayor seguridad habrá en la información de la empresa correspondiente. Al cumplirse el tiempo de vencimiento para resguardar la información por parte del ente encargado de publicarla, se debe confirmar que no habrá efectos negativos, daños o perjuicios para la compañía de origen, garantizando que tal información sea poco relevante al momento. Por lo anterior, es necesario determinar en los acuerdos un tiempo relativamente prudente y extenso, en el cual se deba divulgar la información como contenido general, de esta manera, se asegura que no se generen contingencias entre las partes que conforman el contrato establecido.
         
 
@@ -110,9 +109,10 @@
             img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-unidireccional.png").imagen-tipos-acuerdos-confidencialidad
 
         .col-10.p-4
-          .cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad       
-            h4 Unidireccional
-            p.texto-tipos-acuerdos-confidencialidad Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible, en este acuerdo se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, son posibles, por ejemplo, en el sector de desarrollo de software, porque el cliente, habitualmente, es quien entrega la información confidencial.
+          .imagen-tipos.cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad       
+            .texto-tipos-acuerdos-confidencialidad
+              h4 Unidireccional
+              p Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible, en este acuerdo se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, son posibles, por ejemplo, en el sector de desarrollo de software, porque el cliente, habitualmente, es quien entrega la información confidencial.
     
     br
     
@@ -122,9 +122,10 @@
           img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-bidireccional.png").imagen-tipos-acuerdos-confidencialidad-2
 
         .col-10.p-4
-          .cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad-2
-            h4 Bidireccional
-            p Las organizaciones o entes comprendidos en este tipo de acuerdo deben suministrar, ambos, información relevante, sensible, confidencial y delicada sin distinción alguna. Este acuerdo se usa con mayor frecuencia que el anterior, aunque, todos funcionan en común acuerdo.
+          .imagen-tipos.cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad-2
+            .texto-tipos-acuerdos-confidencialidad
+              h4 Bidireccional
+              p Las organizaciones o entes comprendidos en este tipo de acuerdo deben suministrar, ambos, información relevante, sensible, confidencial y delicada sin distinción alguna. Este acuerdo se usa con mayor frecuencia que el anterior, aunque, todos funcionan en común acuerdo.
     separador
   //          
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -135,7 +136,7 @@
     
     
     figure
-      img(data-aos="zoom-in")(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
       
       .row.justify-content-around.p-4
         

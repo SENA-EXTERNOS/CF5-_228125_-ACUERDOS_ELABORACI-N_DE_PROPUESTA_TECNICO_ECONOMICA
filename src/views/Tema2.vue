@@ -48,11 +48,18 @@
       .titulo-segundo.color-acento-botones
         h2 Alcance de la propuesta
 
-      
-      .bloque-texto-g.color-secundario.p-4.p-sm-4.p-md-5
+      .row 
+        .col-6
+          img(src='@/assets/curso/portada/imagen2-alcance-propuesta.svg').imagen-alcance-propuesta
 
-        .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/portada/imagen-alcance-de-la-propuesta.svg')})`}"
+        .col-6.color-derecho-alcance-propuesta
+          .bloque-texto-alcance-propuesta.p-4
+            p.mb-0 Debe haber claridad respecto al sistema de información a desarrollar. Luego de realizar las reuniones con los encargados del soporte de las necesidades o falencias encontradas, el documento de propuesta económica se determina hasta las etapas del proyecto, es decir, solo determina los requerimientos contemplados hasta el momento, junto a sus respectivos acuerdos.
+
+      //.bloque-texto-g.color-derecho-alcance-propuesta.p-4.p-sm-4.p-md-5
+
+        .bloque-texto-g__img.imagen-alcance-propuesta(
+            :style="{'background-image': `url(${require('@/assets/curso/portada/imagen2-alcance-propuesta.svg')})`}"
         )
         
         .bloque-texto-g__texto.p-4
@@ -74,9 +81,10 @@
             img(src="@/assets/curso/portada/imagen-valor-del-servicio.svg")
         
         .col-lg-7
-          p Es el valor que representa para el cliente la inversión a realizar para adquirir la solución o el proyecto, lo que representa, a su vez, la realización de  mejoras en el área de tecnologías de las empresas, las cuales, en muchas ocasiones, se abstienen de estos cambios porque, usualmente, son cambios traumáticos para el talento humano, pues deben adquirir conocimientos nuevos en el manejo de la nueva plataforma y, en múltiples ocasiones, son reacios a la hora de enfrentar cambios para no salir de su zona de confort.
-          .bloque-texto-mitad-color.p-1
-            p.mb-0 Con las condiciones y mejoras ofrecidas y pactadas, es de resaltar, con seguridad, que la inversión realizada por los clientes se verá retribuida en un cierto período de tiempo, mediante mayores clientes, mayores ventas, mayores ganancias, etc.
+          p.p-2 Es el valor que representa para el cliente la inversión a realizar para adquirir la solución o el proyecto, lo que representa, a su vez, la realización de  mejoras en el área de tecnologías de las empresas, las cuales, en muchas ocasiones, se abstienen de estos cambios porque, usualmente, son cambios traumáticos para el talento humano, pues deben adquirir conocimientos nuevos en el manejo de la nueva plataforma y, en múltiples ocasiones, son reacios a la hora de enfrentar cambios para no salir de su zona de confort.
+
+          .bloque-texto-mitad-color
+            p.p-2 Con las condiciones y mejoras ofrecidas y pactadas, es de resaltar, con seguridad, que la inversión realizada por los clientes se verá retribuida en un cierto período de tiempo, mediante mayores clientes, mayores ventas, mayores ganancias, etc.
 
     separador
     // .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -110,37 +118,38 @@
           img(data-aos="fade-right")(src="@/assets/curso/portada/imagen-cartas-de-aceptacion.svg")
 
         .col-7
-          .bloque-texto-color
-            p.p-2 Son documentos formales que envía la empresa o persona solicitante de un producto o servicio a los participantes o postulantes del proyecto. Este documento tiene características puntuales y debe hacerse con el fin de dar a conocer a cada candidato si ha sido aceptado o no para la ejecución y puesta en marcha del nuevo cometido.
-          p.p-2 Es también, un registro de valor que puede beneficiar las partes que intervienen en la ejecución del proyecto, por lo cual, todo lo escrito, es válido para aclarar las suposiciones surgidas en los acuerdos preestablecidos. Las cartas de aceptación intervienen para informar a los proveedores de software sobre posibles reuniones para especificar puntos inconclusos por parte del cliente que necesiten mayor profundidad. Otra característica de estos escritos es la forma en la que los interesados en la inversión se relacionan y muestran respeto hacia la firma de software, garantizando las buenas relaciones con fluidez y productividad.
+          .bloque-texto-cartas-aceptacion
+            p.p-3 Son documentos formales que envía la empresa o persona solicitante de un producto o servicio a los participantes o postulantes del proyecto. Este documento tiene características puntuales y debe hacerse con el fin de dar a conocer a cada candidato si ha sido aceptado o no para la ejecución y puesta en marcha del nuevo cometido.
+          p.p-3 Es también, un registro de valor que puede beneficiar las partes que intervienen en la ejecución del proyecto, por lo cual, todo lo escrito, es válido para aclarar las suposiciones surgidas en los acuerdos preestablecidos. Las cartas de aceptación intervienen para informar a los proveedores de software sobre posibles reuniones para especificar puntos inconclusos por parte del cliente que necesiten mayor profundidad. Otra característica de estos escritos es la forma en la que los interesados en la inversión se relacionan y muestran respeto hacia la firma de software, garantizando las buenas relaciones con fluidez y productividad.
 
     .row.tarjeta.tarjeta--blanca.p-3(data-aos="fade-right")
     
       .bloque-texto-imagen-color.p-4.p-md-5.mb-5
         .row.justify-content-around.align-items-center
           
-          .col-md.col-lg-6
+          .col-md.col-lg-7
             p.mb-1 Así mismo, las corporaciones o entidades, al aceptar y dar vía libre a un proyecto, lo hacen por medio de una carta de aceptación en la que incluyen datos relevantes como el nombre del proyecto, la empresa participante y las respectivas fechas estipuladas. Las cartas de aceptación incluyen información de suma importancia y, a su vez, presentan a la empresa como una organización ordenada y distinguida, aumentando así el valor y enriquecimiento de los participantes en las convocatorias realizadas.
 
 
-          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          .col-5.col-sm-4
             img(src="@/assets/curso/portada/imagen2-carta-de-aceptacion.svg")
 
     .row.tarjeta.tarjeta--blanca.p-3
       
         .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          .col-4
             img(data-aos="fade-right")(src="@/assets/curso/portada/imagen3-carta-de-aceptacion.svg")
 
-          .col-md.col-lg-6
+          .col-8
 
             p.p-2 Dando cumplimiento a los estándares de calidad y presentación, los formatos deben estar bien estructurados, presentados con los logos (membrete) que identifiquen a la institución, la fecha en la cual se redacta el formato y el destinatario (participante). Se presenta de forma que el receptor esté conforme y a gusto con la información recibida, de esta forma se garantiza acercamiento y buen trato desde el principio. Una buena relación entre las partes que lideran el proceso se enmarca en las buenas prácticas enriquecedoras que fomenten el acercamiento a las compañías.
             p.p-2 La siguiente imagen presenta un modelo del formato de carta de aceptación. 
 
-            
-            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/carta_de_aceptacion.docx')" target="_blank" type="application/pdf")
-              span Modelo del formato de carta de aceptación.
-                i.fas.fa-file-download
+            br
+            a.boton.boton-descargar-formato(:href="obtenerLink('/downloads/carta_de_aceptacion.docx')" target="_blank" type="application/pdf")
+                img(src="@/assets/curso/portada/imagen-descargar-word.svg").imagen-boton-descargar
+                p.texto-boton-descargar-formato Modelo del formato de carta de aceptación.
+                
     separador
 
 </template>
