@@ -16,7 +16,7 @@
 
           .col-lg-8.col-xxl-6.ps-5.ps-sm-6.py-5.py-sm-5.banner-principal__info
             
-            p.mb-0 La organización del área de las TIC (Tecnologías de la Información y las Comunicaciones) es fundamental para la competitividad de las empresas y, por tanto, es necesario que las compañías, cuenten con hardware y software de alta calidad para operar día a día. De acuerdo a esto, los desarrolladores o proveedores de sistemas de información o de hardware, deben dar a conocer la documentación respectiva, los componentes que definen la propuesta de valor del bien o servicio y reunirse con las empresas para conocer las necesidades de cada organización.
+            p.mb-0 La organización del área de las TIC (Tecnologías de la Información y las Comunicaciones) es fundamental para la competitividad de las empresas y, por tanto, es necesario que las compañías, cuenten con <em>hardware</em> y <em>software</em> de alta calidad para operar día a día. De acuerdo a esto, los desarrolladores o proveedores de sistemas de información o de <em>hardware</em>, deben dar a conocer la documentación respectiva, los componentes que definen la propuesta de valor del bien o servicio y reunirse con las empresas para conocer las necesidades de cada organización.
 
           .col-md.col-lg-4
             img(src="@/assets/curso/portada/imagen2-portada2.svg")
@@ -27,7 +27,7 @@
 
       #presentacion
       .titulo-segundo.color-acento-botones
-        h2 Presentacion
+        h2 Presentación
 
       .row.justify-content-around.align-items-center
         
@@ -98,8 +98,8 @@
         .row.justify-content-around.align-items-center
           
           .col-md.col-lg-6
-            p.p-2 Determina qué se debe realizar conforme a los requerimientos solicitados por la compañía en estudio, la estimación de los recursos, los costos y el calendario para el desarrollo de software, que implica un riesgo inherente que conduce a la incertidumbre. Tener un acercamiento sobre el precio, conlleva evaluar todos los elementos a tener en cuenta como las dificultades del proyecto, su magnitud, el talento humano requerido, los servicios de soporte, entre otros elementos indispensables para entregar la propuesta formal del precio.
-            p.p-2 Otro aspecto importante que se debe discutir, necesario para la puesta en marcha del proyecto de software, es establecer la forma en la que se realizarán los pagos del proyecto. Existen diversas formas de pago que permitirán al proveedor de sistemas de información, elegir la más conveniente, por ejemplo, el trabajo por horas, por requerimientos, por proyecto, entre otros. Cada casa de software o desarrollador identifica, según las exigencias del nuevo contrato, las formas de pago.
+            p.p-2 Determina qué se debe realizar conforme a los requerimientos solicitados por la compañía en estudio, la estimación de los recursos, los costos y el calendario para el desarrollo de <em>software</em>, que implica un riesgo inherente que conduce a la incertidumbre. Tener un acercamiento sobre el precio, conlleva evaluar todos los elementos a tener en cuenta como las dificultades del proyecto, su magnitud, el talento humano requerido, los servicios de soporte, entre otros elementos indispensables para entregar la propuesta formal del precio.
+            p.p-2 Otro aspecto importante que se debe discutir, necesario para la puesta en marcha del proyecto de <em>software</em>, es establecer la forma en la que se realizarán los pagos del proyecto. Existen diversas formas de pago que permitirán al proveedor de sistemas de información, elegir la más conveniente, por ejemplo, el trabajo por horas, por requerimientos, por proyecto, entre otros. Cada casa de <em>software</em> o desarrollador identifica, según las exigencias del nuevo contrato, las formas de pago.
 
           .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
             img(src="@/assets/curso/portada/imagen-precio-y-forma-de-pago.svg")
@@ -120,7 +120,7 @@
         .col-7
           .bloque-texto-cartas-aceptacion
             p.p-3 Son documentos formales que envía la empresa o persona solicitante de un producto o servicio a los participantes o postulantes del proyecto. Este documento tiene características puntuales y debe hacerse con el fin de dar a conocer a cada candidato si ha sido aceptado o no para la ejecución y puesta en marcha del nuevo cometido.
-          p.p-3 Es también, un registro de valor que puede beneficiar las partes que intervienen en la ejecución del proyecto, por lo cual, todo lo escrito, es válido para aclarar las suposiciones surgidas en los acuerdos preestablecidos. Las cartas de aceptación intervienen para informar a los proveedores de software sobre posibles reuniones para especificar puntos inconclusos por parte del cliente que necesiten mayor profundidad. Otra característica de estos escritos es la forma en la que los interesados en la inversión se relacionan y muestran respeto hacia la firma de software, garantizando las buenas relaciones con fluidez y productividad.
+          p.p-3 Es también, un registro de valor que puede beneficiar las partes que intervienen en la ejecución del proyecto, por lo cual, todo lo escrito, es válido para aclarar las suposiciones surgidas en los acuerdos preestablecidos. Las cartas de aceptación intervienen para informar a los proveedores de <em>software</em> sobre posibles reuniones para especificar puntos inconclusos por parte del cliente que necesiten mayor profundidad. Otra característica de estos escritos es la forma en la que los interesados en la inversión se relacionan y muestran respeto hacia la firma de <em>software</em>, garantizando las buenas relaciones con fluidez y productividad.
 
     .row.tarjeta.tarjeta--blanca.p-3(data-aos="fade-right")
     
@@ -132,7 +132,7 @@
 
 
           .col-5.col-sm-4
-            img(src="@/assets/curso/portada/imagen2-carta-de-aceptacion.svg")
+            img(src="@/assets/curso/portada/imagen2-cartas-de-aceptacion-corregida.png")
 
     .row.tarjeta.tarjeta--blanca.p-3
       

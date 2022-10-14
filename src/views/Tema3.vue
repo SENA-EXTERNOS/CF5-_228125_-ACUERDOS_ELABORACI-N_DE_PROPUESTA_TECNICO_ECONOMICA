@@ -20,7 +20,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-left")
     #legislacion
     .titulo-segundo.color-acento-botones
-      h2 Legislacion
+      h2 Legislación
 
 
     .row.justify-content-around.align-items-center
@@ -28,7 +28,7 @@
       .col-8
         .cajon.bloque-texto-color-rojo.p-4
           p.mb-4.bloque-texto-color-blanco Conforme se encuentren irregularidades en los contratos y proyectos llevados a cabo según los acuerdos de confidencialidad, la legislación determinará el grado de afectación basados en la normativa de cada nación, en tanto el afectado actuará de forma judicial contra las afectaciones e incumplimientos de lo pactado en el contrato, con el fin de defender los bienes que le confieren. 
-        p.p-4 La propiedad intelectual en la industria del software usualmente abarca en sus contratos la forma de proceder bajo la ley en caso de eventualidades inesperadas o de incumplimientos en el contrato o proyecto ejecutados en cualquier modalidad, es decir, cuando exista actividad irregular en los procesos establecidos, la normativa actúa de forma automática sobre las inestabilidades e incurrencia y, a su vez, pena al ente que infringe lo estipulado.
+        p.p-4 La propiedad intelectual en la industria del <em>software</em> usualmente abarca en sus contratos la forma de proceder bajo la ley en caso de eventualidades inesperadas o de incumplimientos en el contrato o proyecto ejecutados en cualquier modalidad, es decir, cuando exista actividad irregular en los procesos establecidos, la normativa actúa de forma automática sobre las inestabilidades e incurrencia y, a su vez, pena al ente que infringe lo estipulado.
       .col-4
         img(src="@/assets/curso/portada/imagen-legislacion.png")
   
@@ -43,7 +43,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/portada/imagen2-legislacion.png')})`}"
         )
         .bloque-texto-g__texto.bloque-texto-color-azul.p-4
-          p.bloque-texto-color-blanco Cuando se realizan contratos relacionados con la ejecución e implementación de sistemas de información, se tienen en cuenta diversos criterios o puntos de vista, entre las partes y se debe especificar si existen terceros que medien tanto en la recolección de información, como en la manipulación de la plataforma software. Los acuerdos siempre se establecen con la finalidad de cumplir lo pactado en el contrato, sin embargo, en caso de incumplimiento la penalidad es de carácter económico, aunque sin superar los montos conforme a las leyes o pretendiendo cantidades exageradas. Junto a todo lo anterior, se debe tener en cuenta los tiempos de entrega de las funcionalidades y, en este caso, la penalidad estaría asociada única y exclusivamente con los productos entregables.
+          p.bloque-texto-color-blanco Cuando se realizan contratos relacionados con la ejecución e implementación de sistemas de información, se tienen en cuenta diversos criterios o puntos de vista, entre las partes y se debe especificar si existen terceros que medien tanto en la recolección de información, como en la manipulación de la plataforma <em>software</em>. Los acuerdos siempre se establecen con la finalidad de cumplir lo pactado en el contrato, sin embargo, en caso de incumplimiento la penalidad es de carácter económico, aunque sin superar los montos conforme a las leyes o pretendiendo cantidades exageradas. Junto a todo lo anterior, se debe tener en cuenta los tiempos de entrega de las funcionalidades y, en este caso, la penalidad estaría asociada única y exclusivamente con los productos entregables.
   
 
   
@@ -59,6 +59,8 @@
         .bloque-texto3-acuerdos-confidencialidad
           .bloque2-texto3-acuerdos-confidencialidad.p-3 Existe una legislación y reglamentación basada en las modificaciones realizadas en el proyecto, que pueden ocurrir bien por cambios inesperados, por mejoras en tecnologías o por requerimientos. Estos casos deben quedar planteado en la documentación y en los acuerdos para evitar incurrir en penalidades más adelante. Sin embargo, en 
             | los casos que sea necesario aplicar el cumplimiento de términos y condiciones descrito en los documentos de confidencialidad o legalidad que señalen el ente que los ha incumplido, este debe someterse a una penalidad de daños y perjuicios que supone importes económicos, los cuales dependen de cada caso respecto al contrato inicial.
+            
+          h4.p-3 Duración
           p.p-3 Mientras mayor sea el plazo o duración del acuerdo de confidencialidad, mayor seguridad habrá en la información de la empresa correspondiente. Al cumplirse el tiempo de vencimiento para resguardar la información por parte del ente encargado de publicarla, se debe confirmar que no habrá efectos negativos, daños o perjuicios para la compañía de origen, garantizando que tal información sea poco relevante al momento. Por lo anterior, es necesario determinar en los acuerdos un tiempo relativamente prudente y extenso, en el cual se deba divulgar la información como contenido general, de esta manera, se asegura que no se generen contingencias entre las partes que conforman el contrato establecido.
         
 
@@ -100,7 +102,7 @@
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
-    p.mb-5 Se puede determinar que existen dos tipos de :
+    p.mb-5 Se puede determinar que existen dos tipos de acuerdos de confidencialidad:
     br
 
     
@@ -113,7 +115,7 @@
           .imagen-tipos.cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad       
             .texto-tipos-acuerdos-confidencialidad
               h4 Unidireccional
-              p Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible, en este acuerdo se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, son posibles, por ejemplo, en el sector de desarrollo de software, porque el cliente, habitualmente, es quien entrega la información confidencial.
+              p Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible, en este acuerdo se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, son posibles, por ejemplo, en el sector de desarrollo de <em>software</em>, porque el cliente, habitualmente, es quien entrega la información confidencial.
     
     br
     
@@ -137,7 +139,7 @@
     
     
     figure
-      img(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
+      img(data-aos="zoom-in")(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
       
       .row.justify-content-around.p-4
         
@@ -152,7 +154,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
       .bloque-texto-mitad-color-izquierda.p-3
-            span En el ámbito de desarrollo de software suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.  
+            span En el ámbito de desarrollo de <em>software</em> suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.  
       br
       br
 
@@ -164,7 +166,7 @@
                   .tarjeta.tarjeta--blanca
                       img(src="@/assets/curso/portada/imagen-bombillo.png").imagen-izquierda-tarjeta-clausulas
               .col-10    
-                  p.bloque-texto-color-blanco Siempre se debe pensar a favor de los clientes, dado que son quienes usarán el servicio y quienes pueden evaluarlo de acuerdo a la atención prestada por el proveedor. Al pensar de afuera hacia dentro, se fijan y se conocen las necesidades del cliente con mayor claridad, para así resolverlas fácilmente. 
+                  p.bloque-texto-color-blanco Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
             

@@ -10,9 +10,9 @@
       .row.justify-content-around.align-items-center
         .col-md.col-lg-6
           .bloque-texto-color.p-3
-            p En el marco del desarrollo de software, es de suma importancia que los proveedores de sistemas de información brinden soporte técnico post-instalación. Se podría decir que es la base fundamental y la retroalimentación necesaria una vez puesta en marcha las aplicaciones o plataformas que pasan a fase de producción en determinadas compañías. 
+            p En el marco del desarrollo de <em>software</em>, es de suma importancia que los proveedores de sistemas de información brinden soporte técnico post-instalación. Se podría decir que es la base fundamental y la retroalimentación necesaria una vez puesta en marcha las aplicaciones o plataformas que pasan a fase de producción en determinadas compañías. 
 
-          p.p-3 La armonía existente entre esta sociedad y el proveedor resulta vital en tanto la ejecución de un proyecto de software requiere horas de implementación, templanza, constancia, además de capacitación a personal operativo o administrativo, dependiendo el caso, siendo elementos evidentemente desgastantes no solo en la ejecución del proceso, sino posteriormente, cuando las personas que interactúan con el programa se enfrentan, sin acompañamiento, a realizar las instrucciones necesarias para operar, siendo ese instante, cuando surgen dudas, anomalías, inconsistencias, confusión con las opciones, etc., generando, sin lugar a dudas, el momento oportuno para poner a disposición todo el equipo de soporte técnico por parte del proveedor, para atender las necesidades recurrentes encontradas por los operarios.
+          p.p-3 La armonía existente entre esta sociedad y el proveedor resulta vital en tanto la ejecución de un proyecto de <em>software</em> requiere horas de implementación, templanza, constancia, además de capacitación a personal operativo o administrativo, dependiendo el caso, siendo elementos evidentemente desgastantes no solo en la ejecución del proceso, sino posteriormente, cuando las personas que interactúan con el programa se enfrentan, sin acompañamiento, a realizar las instrucciones necesarias para operar, siendo ese instante, cuando surgen dudas, anomalías, inconsistencias, confusión con las opciones, etc., generando, sin lugar a dudas, el momento oportuno para poner a disposición todo el equipo de soporte técnico por parte del proveedor, para atender las necesidades recurrentes encontradas por los operarios.
           
         
         .col-md.col-lg-6
@@ -33,14 +33,14 @@
 
             p.p-2 Debe establecerse un contrato entre cliente y proveedor que permita identificar con facilidad los acuerdos que se lleven a cabo entre las dos partes y la forma de operar en los servicios de soporte porque de esto depende el funcionamiento de los procesos internos de cada empresa.
             .bloque-texto-color.p-3
-              p.mb-0 En ese documento se fijan con claridad las responsabilidades y límites de los involucrados para evitar cuellos de botella de quienes reciben asistencia, la cual se debe prestar de manera adecuada y con la mayor prestación posible. Los acuerdos suministran la información necesaria para mejorar todos los procesos de soporte que rigen una empresa, desde información a bases de datos, soporte de hardware a software, de usuarios convencionales a privilegiados, entre otros.
+              p.mb-0 En ese documento se fijan con claridad las responsabilidades y límites de los involucrados para evitar cuellos de botella de quienes reciben asistencia, la cual se debe prestar de manera adecuada y con la mayor prestación posible. Los acuerdos suministran la información necesaria para mejorar todos los procesos de soporte que rigen una empresa, desde información a bases de datos, soporte de <em>hardware</em> a <em>software</em>, de usuarios convencionales a privilegiados, entre otros.
     
       .row.p-4.p-md-5
 
         .row.justify-content-around.align-items-center
           .col-lg-6
             .bloque-texto-color.p-3
-              p Las correctas herramientas y prácticas usadas por el grupo desarrollador para actualizar una funcionalidad en el sistema, como realizar pruebas y despliegues, escalamientos en la infraestructura del software, en caso que se requiera, o garantizar el funcionamiento emprendido a nivel de servicio con el usuario final, son procesos clave en los niveles de servicio técnico que dan fiabilidad a los clientes, percibiendo apoyo en el suministro de esa prioridad.
+              p Las correctas herramientas y prácticas usadas por el grupo desarrollador para actualizar una funcionalidad en el sistema, como realizar pruebas y despliegues, escalamientos en la infraestructura del <em>software</em>, en caso que se requiera, o garantizar el funcionamiento emprendido a nivel de servicio con el usuario final, son procesos clave en los niveles de servicio técnico que dan fiabilidad a los clientes, percibiendo apoyo en el suministro de esa prioridad.
           
           .col-lg-6
             .tarjeta.tarjeta--blanca.p-3
@@ -79,13 +79,13 @@
             .h5.mb-2.mt-6.bloque-texto-color-puntos-calientes
               span 1. 
               | SLA basado en el cliente
-            p Consiste en acuerdos estipulados por el cliente que utiliza el servicio, es decir, el cliente que recibe la asistencia determina cláusulas o restricciones dependiendo de sus necesidades. Normalmente, los proveedores fijan acuerdos generales para todo tipo de solicitante, sin embargo, pueden crear especificaciones distintas para cada cliente que desee implementar medidas diferentes a las generalizadas. Un ejemplo de este tipo de SLA es un proveedor de soporte técnico, de hardware y software, que tenga, según las necesidades de sus clientes, un SLA para hardware, otro para software, otro para infraestructura de telecomunicaciones, etc., e incluya un cliente nuevo que no acceda al SLA anterior, debido a sus políticas, deberá crear acuerdos para este cliente en específico.
+            p Consiste en acuerdos estipulados por el cliente que utiliza el servicio, es decir, el cliente que recibe la asistencia determina cláusulas o restricciones dependiendo de sus necesidades. Normalmente, los proveedores fijan acuerdos generales para todo tipo de solicitante, sin embargo, pueden crear especificaciones distintas para cada cliente que desee implementar medidas diferentes a las generalizadas. Un ejemplo de este tipo de SLA es un proveedor de soporte técnico, de <em>hardware</em> y <em>software</em>, que tenga, según las necesidades de sus clientes, un SLA para hardware, otro para software, otro para infraestructura de telecomunicaciones, etc., e incluya un cliente nuevo que no acceda al SLA anterior, debido a sus políticas, deberá crear acuerdos para este cliente en específico.
 
           .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="20%" y="68%" numero="2")
             .h5.mb-2.bloque-texto-color-puntos-calientes
               span 2. 
               | SLA basado en el servicio
-            p Es un acuerdo realizado por el proveedor que aplica para todos los clientes, agencias, empresas o personas que reciben su servicio. En este tipo de acuerdos se deben considerar pros y contras, dado que los clientes no podrán modificarlo según sus necesidades. Teniendo en cuenta esto, un SLA basado en servicios es proporcionado para todos los clientes y no para uno particular. Por ejemplo, para una empresa que provee software y que sus clientes obtienen el soporte de tal plataforma, uno de los puntos del acuerdo para todos sus clientes sería la atención al público con un horario no modificable de 09:00 am a 05:00 pm, y quienes soliciten este servicio antes o después del horario acordado, no podrán resolver el inconveniente presentado.
+            p Es un acuerdo realizado por el proveedor que aplica para todos los clientes, agencias, empresas o personas que reciben su servicio. En este tipo de acuerdos se deben considerar pros y contras, dado que los clientes no podrán modificarlo según sus necesidades. Teniendo en cuenta esto, un SLA basado en servicios es proporcionado para todos los clientes y no para uno particular. Por ejemplo, para una empresa que provee <em>software</em> y que sus clientes obtienen el soporte de tal plataforma, uno de los puntos del acuerdo para todos sus clientes sería la atención al público con un horario no modificable de 09:00 am a 05:00 pm, y quienes soliciten este servicio antes o después del horario acordado, no podrán resolver el inconveniente presentado.
 
           .tarjeta.bloque-texto-color-puntos-calientes.p-3(x="80%" y="68%" numero="3")
             .h5.mb-2.bloque-texto-color-puntos-calientes
@@ -162,7 +162,7 @@
                       .tarjeta.tarjeta--blanca
                         img(src="@/assets/curso/portada/imagen-pensar-de-afuera-hacia-adentro.svg", alt="alt").img100.imagen-izquierda-tarjeta
                   .col-8.p-4
-                        h5 Pensar de afuera hacia dentro
+                        //h5 Pensar de afuera hacia dentro
                         p Siempre se debe pensar a favor de los clientes, dado que son quienes usarán el servicio y quienes pueden evaluarlo de acuerdo a la atención prestada por el proveedor. Al pensar de afuera hacia dentro, se fijan y se conocen las necesidades del cliente con mayor claridad, para así resolverlas fácilmente. 
                 
             
@@ -173,7 +173,7 @@
                       .tarjeta.tarjeta--blanca
                         img(src="@/assets/curso/portada/imagen-Impulsar-comportamientos-deseados.svg", alt="alt").img100.imagen-izquierda-tarjeta-2
                   .col-8.p-4
-                        h5 Impulsar comportamientos deseados
+                        //h5 Impulsar comportamientos deseados
                         p Un buen comportamiento hace referencia a una buena estructuración de los niveles de servicio y conlleva a la buena práctica para solucionar y abordar cualquier necesidad que tenga el cliente con el fin de resolverlas de manera rápida y eficaz. Por otro lado, se debe tener en cuenta que hay comportamientos perjudiciales y se debe tener en cuenta cuando ocurren y, sobre todo, solucionarlos de la mejor forma posible.
             
             
@@ -184,7 +184,7 @@
                       .tarjeta.tarjeta--blanca
                         img(src="@/assets/curso/portada/imagen-usar-definiciones-precisas.svg", alt="alt").img100.imagen-izquierda-tarjeta
                   .col-8.p-4
-                        h5 Usar definiciones precisas
+                        //h5 Usar definiciones precisas
                         p Se debe ser cuidadoso al momento de redactar los niveles de servicio, un mal concepto o un mal escrito puede ser interpretado como una falla y, dependiendo el caso, afectará la atención respecto a las necesidades de cliente.
 
 
@@ -200,7 +200,9 @@
           .bloque-texto-color.p-3
             p Como se mencionó anteriormente, los acuerdos o SLA son contratos entre dos entes, un proveedor que brinda el servicio y un cliente que lo recibe, que contienen tanto las cláusulas, circunstancias y condiciones bajo las cuales se debe atender al cliente, como los tiempos de respuesta por parte del soporte técnico y la forma en la que se establecen los servicios, especialmente, los niveles en que se responde al cliente la atención solicitada.
 
-          p.p-3 En estos casos, se hace necesario para los SLA de soporte técnico contar con fluidez y flexibilidad en los horarios de atención brindados a las empresas que atienden clientes finales, el soporte técnico va de la mano con el funcionamiento de cada equipo de cómputo o hardware donde se gestiona la información, operado por los usuarios que a diario realizan transacciones a través de portales o aplicaciones. Por otro lado, está el software, el cual es indispensable para operar, en este caso, se tienen en cuenta tanto la base de datos como la interfaz gráfica y la respuesta de servidores que proviene de consultas realizadas a la base de datos a través de aplicaciones cliente-servidor o arquitecturas basadas en servicios. En cualquiera de los casos, el tiempo de respuesta ante un colapso del sistema, contribuye a la canalización de la atención final de clientes o solicitantes de un servicio particular.
+          p.p-3 En estos casos, se hace necesario para los SLA de soporte técnico contar con fluidez y flexibilidad en los horarios de atención brindados a las empresas que atienden clientes finales, el soporte técnico va de la mano con el funcionamiento de cada equipo de cómputo o <em>hardware</em> donde se gestiona la información, operado por los usuarios que a diario realizan transacciones a través de portales o aplicaciones. Por otro lado, está el 
+            span.text-black software, 
+            | el cual es indispensable para operar, en este caso, se tienen en cuenta tanto la base de datos como la interfaz gráfica y la respuesta de servidores que proviene de consultas realizadas a la base de datos a través de aplicaciones cliente-servidor o arquitecturas basadas en servicios. En cualquiera de los casos, el tiempo de respuesta ante un colapso del sistema, contribuye a la canalización de la atención final de clientes o solicitantes de un servicio particular.
           
         
         .col-md.col-lg-5
