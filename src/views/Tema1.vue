@@ -201,7 +201,7 @@
             p Como se mencionó anteriormente, los acuerdos o SLA son contratos entre dos entes, un proveedor que brinda el servicio y un cliente que lo recibe, que contienen tanto las cláusulas, circunstancias y condiciones bajo las cuales se debe atender al cliente, como los tiempos de respuesta por parte del soporte técnico y la forma en la que se establecen los servicios, especialmente, los niveles en que se responde al cliente la atención solicitada.
 
           p.p-3 En estos casos, se hace necesario para los SLA de soporte técnico contar con fluidez y flexibilidad en los horarios de atención brindados a las empresas que atienden clientes finales, el soporte técnico va de la mano con el funcionamiento de cada equipo de cómputo o <em>hardware</em> donde se gestiona la información, operado por los usuarios que a diario realizan transacciones a través de portales o aplicaciones. Por otro lado, está el 
-            span.text-black software, 
+            span.text-black <em>software</em>, 
             | el cual es indispensable para operar, en este caso, se tienen en cuenta tanto la base de datos como la interfaz gráfica y la respuesta de servidores que proviene de consultas realizadas a la base de datos a través de aplicaciones cliente-servidor o arquitecturas basadas en servicios. En cualquiera de los casos, el tiempo de respuesta ante un colapso del sistema, contribuye a la canalización de la atención final de clientes o solicitantes de un servicio particular.
           
         
