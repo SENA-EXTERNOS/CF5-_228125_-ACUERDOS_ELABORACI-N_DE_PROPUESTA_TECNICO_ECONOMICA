@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/portada/portada-tema2.svg')})`}"
       )
     
-        .row.banner-principal__row
+        .row
 
           .col-lg-8.col-xxl-6.ps-5.ps-sm-6.py-5.py-sm-5.banner-principal__info
             
