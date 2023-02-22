@@ -113,9 +113,9 @@ export default {
   },
   complementario: [
     {
-      tema: 'Acuerdos de nivel de servicios',
+      tema: 'Acuerdos de niveles de servicios',
       referencia:
-        'Rodríguez, R., N. (2018). La bolsa de valores de Colombia, su naturaleza y su posición sobre las sociedades comisionistas de bolsa. El planteamiento del service level agreement como posible forma de mitigación. Derecho PUCP: Revista de la Facultad de Derecho 1(81), p. 265-302',
+        'Rodríguez, R. N. (2018). La bolsa de valores de Colombia, su naturaleza y su posición sobre las sociedades comisionistas de bolsa. El planteamiento del service level agreement como posible forma de mitigación. Revista de la Facultad de Derecho, 1(81), p. 265-302.',
       tipo: 'Artículo',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6711294',
     },
@@ -139,7 +139,7 @@ export default {
     {
       termino: 'Cláusula',
       significado:
-        'esta relacionada con los contratos e indican una condición adicional para estos.',
+        'está relacionada con los contratos, e indican una condición adicional para estos.',
     },
     {
       termino: 'Partes interesadas',
@@ -157,7 +157,7 @@ export default {
         'manifiesta las razones por las que se muestra interés en un proyecto o contrato.',
     },
     {
-      termino: '<em>Sistema de información</em>',
+      termino: 'Sistema de información',
       significado:
         'grupo de componentes,  desarrollo y métodos que forman, en conjunto, una funcionalidad para un fin determinado.',
     },
@@ -170,19 +170,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Ahmad, Azham & Abdullah Arshah, Ruzaini & Kamaludin, Adzhar & Ngah, Lukmanulhakim & Bakar, Tamizan & Muhamad, Rostan & Zakaria. (2020). Adopting of Service Level Agreement (SLA) in enhancing the quality of IT hardware service support',
+        'Ahmad, Azham & Abdullah Arshah, Ruzaini & Kamaludin, Adzhar & Ngah, Lukmanulhakim & Bakar, Tamizan & Muhamad, Rostan & Zakaria. (2020). <em>Adopting of Service Level Agreement (SLA) in enhancing the quality of IT hardware service support.</em>',
       link:
         'https://www.researchgate.net/publication/342800784_Adopting_of_Service_Level_Agreement_SLA_in_enhancing_the_quality_of_IT_hardware_service_support ',
     },
     {
       referencia:
-        'Moreira Finn, K., De Lima Nunes, F., Hermann Nodari, C., & Dobner Sordi, J. (2020). ACUERDO DE NIVEL DE SERVICIO DIRIGIDO A PROVEEDORES DE MATERIALES Y SERVICIOS EN EL SECTOR PETROQUIMICO: ANALISIS DE CRITERIOS. Revista Ibero-americana De Estratégia, 19(4), 151',
+        'Moreira Finn, K., De Lima Nunes, F., Hermann Nodari, C., & Dobner Sordi, J. (2020). <em>Acuerdo de nivel de servicio dirigido a proveedores de materiales y servicios en el sector petroquimico: analisis de criterios</em>. Revista Ibero-americana De Estratégia, 19(4), 151.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A648409594&context=PC&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=primo_central_multiple_fe&tab=sena_completo&query=any,contains,acuerdos%20de%20niveles%20de%20servicio&offset=0 ',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=TN_cdi_gale_infotracacademiconefile_A648409594&context=PC&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=primo_central_multiple_fe&tab=sena_completo&query=any,contains,acuerdos%20de%20niveles%20de%20servicio&offset=0',
     },
     {
       referencia:
-        'Zhang, H., Guangjin, P., Shugong, X. & Zhang, S., Jiang, Z. (2022). Prediction-based Hybrid Slicing Framework for service Level Agreement Guarantee in mobility scenarios: A deep learning Approach. Cornell University.',
+        'Zhang, H., Guangjin, P., Shugong, X. & Zhang, S., Jiang, Z. (2022). <em>Prediction-based Hybrid Slicing Framework for service Level Agreement Guarantee in mobility scenarios: A deep learning Approach. Cornell University.</em>',
       link: 'https://doi.org/10.48550/arXiv.2208.03460',
     },
   ],
