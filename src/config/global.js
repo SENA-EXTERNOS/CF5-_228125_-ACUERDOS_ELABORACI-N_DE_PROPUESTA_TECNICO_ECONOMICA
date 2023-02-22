@@ -53,26 +53,6 @@ export default {
         numero: '1',
         titulo: 'Acuerdos de niveles de servicios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipos',
-            hash: 'tipos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Cómo hacer un nivel de servicio',
-            hash: 'nivel_de_servicio',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Acuerdos de niveles de servicio en soporte técnico',
-            hash: 'acuerdos_de_niveles_de_servicio_en_soporte_tecnico',
-          },
-        ],
       },
 
       {
@@ -81,38 +61,6 @@ export default {
         numero: '2',
         titulo: 'Estructura de propuesta económica y carta de aceptación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Presentación',
-            hash: 'presentacion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Alcance de la propuesta',
-            hash: 'alcance_de_la_propuesta',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Valor del servicio',
-            hash: 'valor_del_servicio',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Precio y forma de pago',
-            hash: 'precio_y_forma_de_pago',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Cartas de aceptación',
-            hash: 'cartas_de_aceptacion',
-          },
-        ],
       },
 
       {
@@ -121,32 +69,6 @@ export default {
         numero: '3',
         titulo: 'Acuerdos de confidencialidad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Legislación',
-            hash: 'legislacion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Duración',
-            hash: 'duracion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Tipos',
-            hash: 'tipos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Cláusulas',
-            hash: 'clausulas',
-          },
-        ],
       },
     ],
     subMenu: [

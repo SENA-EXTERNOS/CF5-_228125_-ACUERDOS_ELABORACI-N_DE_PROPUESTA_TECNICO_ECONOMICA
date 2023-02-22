@@ -16,7 +16,7 @@
 
           .col-lg-8.col-xxl-6.ps-5.ps-sm-6.py-5.py-sm-5.banner-principal__info
             
-            p.mb-0 La organización del área de las TIC (Tecnologías de la Información y las Comunicaciones) es fundamental para la competitividad de las empresas y, por tanto, es necesario que las compañías, cuenten con <em>hardware</em> y <em>software</em> de alta calidad para operar día a día. De acuerdo a esto, los desarrolladores o proveedores de sistemas de información o de <em>hardware</em>, deben dar a conocer la documentación respectiva, los componentes que definen la propuesta de valor del bien o servicio y reunirse con las empresas para conocer las necesidades de cada organización.
+            p.mb-0 La organización del área de las TIC (Tecnologías de la Información y las Comunicaciones), es fundamental para la competitividad de las empresas y, por lo tanto, es necesario que las compañías, cuenten con #[i hardware] y #[i software] de alta calidad, para operar en la cotidianidad. De acuerdo con esto, los desarrolladores o proveedores de sistemas de información o de hardware, deben dar a conocer la documentación respectiva, los componentes que definen la propuesta de valor del bien o servicio y reunirse con las empresas para conocer las necesidades de cada organización.
 
           .col-md.col-lg-4
             img(src="@/assets/curso/portada/imagen2-portada2.svg")
@@ -36,9 +36,9 @@
             img(data-aos="fade-right")(src="@/assets/curso/portada/imagen-presentacion-tema2.svg")
         
         .col-lg-8
-          p.p-3 Es de suma importancia acercarse a los interesados para conocer sus necesidades y, de esa forma, presentar la propuesta acorde a los requerimientos solicitados por el cliente, requerimientos comprendidos por los proveedores de sistemas de información y presentados en el documento que detalla las especificaciones del producto o servicio a adquirir. 
+          p.p-3 Es de suma importancia acercarse a los interesados para conocer sus necesidades y, de esta forma, presentar la propuesta, acorde con los requerimientos solicitados por el cliente, requerimientos entendidos por los proveedores de sistemas de información y presentados en el documento que detalla las especificaciones del producto o servicio a adquirir.
           .bloque-texto-color-rojo.p-1
-            p.p-3.bloque-texto-color-blanco Así, se da a conocer, al ente empresarial, el documento que soporta los lineamientos de la propuesta económica, más la información concerniente a la puesta en marcha y ejecución del proyecto según las necesidades encontradas, a la par de sus posibles soluciones, garantizando fiabilidad al cliente. La presentación debe aclarar las dudas e inquietudes del interesado, por lo cual debe ser lo más sencillo y comprensible posible para la persona que lo revise, permitiendo así, su fácil interpretación.
+            p.p-3.bloque-texto-color-blanco De esta manera, se da a conocer, al ente empresarial, el documento que soporta los lineamientos de la propuesta económica, más la información concerniente a la puesta en marcha y ejecución del proyecto, según las necesidades encontradas, al mismo tiempo que sus posibles soluciones garantizando, al cliente, credibilidad. La presentación debe aclarar las dudas e inquietudes del interesado, por lo que debe ser lo más sencillo y comprensible, para la persona que lo revise, permitiendo, su fácil interpretación.
 
     separador
     .row.tarjeta.tarjeta--blanca.p-3(data-aos="fade-right")
@@ -65,7 +65,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Debe haber claridad respecto al sistema de información a desarrollar. Luego de realizar las reuniones con los encargados del soporte de las necesidades o falencias encontradas, el documento de propuesta económica se determina hasta las etapas del proyecto, es decir, solo determina los requerimientos contemplados hasta el momento, junto a sus respectivos acuerdos.
       
-    p.p-3 Teniendo en cuenta lo anterior, se tiene conocimiento desde dónde abarca la propuesta económica, hasta sus límites y lo contemplado según los requerimientos. En esta etapa queda planteada la definición de la estructura del proyecto en curso y, por consiguiente, se generan expectativas sobre la ejecución de todos los componentes surgido a lo largo de la recolección de información, e igualmente, las falencias, procesos repetitivos, entre otros elementos,  con base en los encuentros planeados para conocer la empresa, identificar sus necesidades,  comprender su metodología y determinar todo lo relacionado con la estructura organizacional para así, al tiempo, reconocer lo automatizable a partir del sistema de información.
+    p.p-3 Teniendo en cuenta lo anterior, se tiene conocimiento desde dónde abarca la propuesta económica, hasta sus límites y lo contemplado, según los requerimientos. En esta etapa, queda planteada la definición de la estructura del proyecto en curso y, por consiguiente, se generan expectativas sobre la ejecución de todos los componentes, surgidas a lo largo de la recolección de información, e igualmente, las falencias, procesos repetitivos, entre otros elementos, con base en los encuentros planeados para conocer la empresa, identificar sus necesidades, comprender su metodología y determinar todo lo relacionado con la estructura organizacional para, de esta manera, al mismo tiempo, reconocer lo automatizable a partir del sistema de información.
 
     separador
     .row.tarjeta.tarjeta--blanca.p-3
@@ -92,7 +92,7 @@
     
       #precio_y_forma_de_pago
       .titulo-segundo.color-acento-botones
-        h2 Precio y Forma de Pago
+        h2 Precio y forma de Pago
 
       .bloque-texto-imagen-color.p-4.p-md-5.mb-5
         .row.justify-content-around.align-items-center

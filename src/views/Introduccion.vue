@@ -17,7 +17,7 @@
         
       
       .col-md.col-lg-5
-        img(src="@/assets/curso/portada/img-introduccion.svg")
+        img(src="@/assets/curso/portada/img-introduccion.png")
 
     br
 
