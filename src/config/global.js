@@ -162,7 +162,7 @@ export default {
         'grupo de componentes,  desarrollo y métodos que forman, en conjunto, una funcionalidad para un fin determinado.',
     },
     {
-      termino: '<em>Valor</em>',
+      termino: 'Valor',
       significado:
         'grado de utilidad e importancia de un bien o servicio adquirido.',
     },
