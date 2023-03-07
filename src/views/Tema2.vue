@@ -92,7 +92,7 @@
     
       #precio_y_forma_de_pago
       .titulo-segundo.color-acento-botones
-        h2 Precio y forma de Pago
+        h2 Precio y forma de pago
 
       .bloque-texto-imagen-color.p-4.p-md-5.mb-5
         .row.justify-content-around.align-items-center
