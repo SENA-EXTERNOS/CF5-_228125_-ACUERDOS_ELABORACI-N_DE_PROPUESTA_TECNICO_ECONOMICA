@@ -19,14 +19,14 @@
             img(src="@/assets/template/imagen-actividad-didactica.png", alt="Texto que describa la imagen").imagen-actividad-didactica
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
-          h2 Selección múltiple
+          h2 Acuerdos y elaboración de propuesta técnico–económica
         p.mb-4 La presente actividad tiene como finalidad evaluar conceptos aprendidos durante el estudio del componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.color-acento-contenido.boton--b(:href="obtenerLink('/actividades/CF5AD - Multiple 1R - 10/story.html')" target="_blank")
+              a.boton.color-acento-contenido.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
