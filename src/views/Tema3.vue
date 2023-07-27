@@ -17,7 +17,7 @@
     separador
   
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-left")
+
     #legislacion
     .titulo-segundo.color-acento-botones
       h2 Legislación
@@ -46,10 +46,8 @@
           p.bloque-texto-color-blanco Cuando se realizan contratos relacionados con la ejecución e implementación de sistemas de información, se tienen en cuenta diversos criterios o puntos de vista entre las partes y se debe especificar si existen terceros que medien, tanto en la recolección de información, como en la manipulación de la plataforma #[i software]. Los acuerdos siempre se establecen con la finalidad de cumplir lo pactado en el contrato; sin embargo, en caso de incumplimiento, la penalidad es de carácter económico, aunque sin superar los montos según las leyes, o pretendiendo cantidades exageradas. Junto a todo lo anterior, se deben tener en cuenta los tiempos de entrega de las funcionalidades y, en este caso, la penalidad estaría asociada única y exclusivamente, con los productos entregables.
   
 
-  
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-around.align-items-center.mt-5
 
       .col-4
         .tarjeta.tarjeta--blanca(data-aos="zoom-in")
@@ -80,8 +78,6 @@
 
 
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="zoom-in")
-
 
     .row.justify-content-around.align-items-center
       
@@ -93,40 +89,30 @@
           p.mb-0.bloque-texto-color-blanco Son muchos los temas legales, contractuales y de interés jurídico, tratados en los acuerdos de confidencialidad, pertenecientes a los entes que hacen parte de un contrato en curso, en el que priman la mesura, la cordialidad, la franqueza y el deseo de impulsar tal proyecto. Por este motivo, se mantiene tanto, a ambas partes de la relación, como a los entes de control, verificando que no se incurra en la divulgación de material sensible, perteneciente a ninguna de las partes.
 
   
-  //  Cajones de texto acuerdos de confidencialidad 
-  
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
     p.mb-5 Se puede determinar que existen dos tipos de acuerdos de confidencialidad:
     br
 
     
-    .row.justify-content-around.align-items-center
+    .row.justify-content-around.align-items-center.imagen-tipos.p-4.mb-4
+      .col-lg-auto.col-md-3
+          img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-unidireccional.png")
+      .col.p-4              
+        .texto-tipos-acuerdos-confidencialidad
+          h4 Unidireccional
+          p Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible; en este acuerdo, se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, es posible; por ejemplo, en el sector de desarrollo de #[i software], porque el cliente, habitualmente, es quien entrega la información confidencial.
 
-        .col-2.col-sm-2.col-md-1.mb-2.mb-md-0
-            img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-unidireccional.png").imagen-tipos-acuerdos-confidencialidad
+    .row.justify-content-around.align-items-center.imagen-tipos.p-4
+      .col.p-4              
+        .texto-tipos-acuerdos-confidencialidad
+          h4 Bidireccional
+          p Las organizaciones o entes involucrados en este tipo de acuerdo, deben suministrar, información relevante, sensible, confidencial y delicada, sin distinción alguna. Este acuerdo se usa con mayor frecuencia que el anterior, aunque, todos funcionan de común acuerdo.        
+      .col-lg-auto.col-md-3
+        img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-bidireccional.png")
+       
+    
 
-        .col-10.p-4
-          .imagen-tipos.cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad       
-            .texto-tipos-acuerdos-confidencialidad
-              h4 Unidireccional
-              p Consiste en una relación en la que solo una parte de los involucrados debe suministrar información delicada y sensible; en este acuerdo, se establecen las condiciones desde el inicio y se notifica e insta a la contraparte a presentar lo correspondiente a bases de datos, clientes, productos, empleados, entre otros. Aunque sea poco común que este tipo de acuerdos se firmen, es posible; por ejemplo, en el sector de desarrollo de #[i software], porque el cliente, habitualmente, es quien entrega la información confidencial.
-    
-    br
-    
-    .row.justify-content-around.align-items-center
-    
-        .col-2.col-sm-2.col-md-0.mb-2.mb-md-0
-          img(data-aos="zoom-in")(src="@/assets/curso/portada/imagen-acuerdo-de-confidencialidad-bidireccional.png").imagen-tipos-acuerdos-confidencialidad-2
-
-        .col-10.p-4
-          .imagen-tipos.cajon.color-secundario.p-4.bloque-texto-tipos-acuerdos-confidencialidad-2
-            .texto-tipos-acuerdos-confidencialidad
-              h4 Bidireccional
-              p Las organizaciones o entes involucrados en este tipo de acuerdo, deben suministrar, información relevante, sensible, confidencial y delicada, sin distinción alguna. Este acuerdo se usa con mayor frecuencia que el anterior, aunque, todos funcionan de común acuerdo.
     separador
-  //          
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     #clausulas
     .titulo-segundo.color-acento-botones
@@ -136,32 +122,22 @@
     figure
       img(data-aos="zoom-in")(src='@/assets/curso/portada/imagen-clausulas-tema3.png', alt='Texto que describa la imagen')
       
-      .row.justify-content-around.p-4
+    .row.justify-content-around.p-4
+      .tarjeta.p-3.imagen-tipos
+        p.mb-0 Teniendo en cuenta los acuerdos de confidencialidad, es necesario aplicar cláusulas o condiciones adicionales para mantener la seguridad e integridad sobre los datos de las firmas que establecen una relación de común acuerdo. Esto garantiza un nivel de confianza sobre la información suministrada por las partes que intervienen en el contrato y, a su vez, las cláusulas se complementan con los acuerdos pactados mencionados anteriormente, con el fin de proteger todo lo relacionado con los datos, información, clientes, empleados, bases de datos, productos, etc.; lo más importante de las cláusulas, es el compromiso adquirido y el nivel de confianza que sientan las partes vinculadas.
+
+
+    .bloque-texto-mitad-color-izquierda.p-3.my-4
+      span En el ámbito de desarrollo de <em>software</em> suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.  
+
+    .tarjeta.bloque-texto-color-clausulas-final(data-aos="fade-left")   
         
-      
-          .tarjeta.bloque-texto-color-clausulas.p-3
-            p.mb-4 Teniendo en cuenta los acuerdos de confidencialidad, es necesario aplicar cláusulas o condiciones adicionales para mantener la seguridad e integridad sobre los datos de las firmas que establecen una relación de común acuerdo. Esto garantiza un nivel de confianza sobre la información suministrada por las partes que intervienen en el contrato y, a su vez, las cláusulas se complementan con los acuerdos pactados mencionados anteriormente, con el fin de proteger todo lo relacionado con los datos, información, clientes, empleados, bases de datos, productos, etc.; lo más importante de las cláusulas, es el compromiso adquirido y el nivel de confianza que sientan las partes vinculadas.
-          
-
-          //.bloque-texto-mitad-color-izquierda.p-3
-            span En el ámbito de desarrollo de software suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.
-  
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-      .bloque-texto-mitad-color-izquierda.p-3
-            span En el ámbito de desarrollo de <em>software</em> suceden a menudo situaciones en las que, por ejemplo, se gestionan bases de datos e interfaces de nuevos sistemas o aplicaciones que suministra información de primera mano de la compañía solicitante, en estos casos el cliente debe proveer cláusulas que garanticen el manejo adecuado de sus datos.  
-      br
-      br
-
-      .tarjeta.bloque-texto-color-clausulas-final(data-aos="fade-left")
-          
-          
-        .row.justify-content-around.p-4.position-relative
-              .col-2
-                  .tarjeta.tarjeta--blanca
-                      img(src="@/assets/curso/portada/imagen-bombillo.png").imagen-izquierda-tarjeta-clausulas
-              .col-10    
-                  p.bloque-texto-color-blanco Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+      .row.justify-content-around.p-4.position-relative
+        .col-2
+            .tarjeta.tarjeta--blanca
+                img(src="@/assets/curso/portada/imagen-bombillo.png").imagen-izquierda-tarjeta-clausulas
+        .col-10    
+            p.bloque-texto-color-blanco Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
             
