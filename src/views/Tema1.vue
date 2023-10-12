@@ -218,7 +218,7 @@
             )
             
             .bloque-texto-g__texto.p-4
-              p.mb-0 Un buen SLA, considera las condiciones y necesidades de la compañía y asigna un proveedor de soporte técnico que siga los acuerdos y responda a cada requerimiento, en el tiempo y espacio precisos, y permite que las empresas sean más competentes ante un mundo globalizado, lleno de entidades que brindan servicios similares. Además de contar con buen soporte técnico, se espera eficiencia en los servicios ofrecidos al consumidor final y, sobre todo, mayor fluidez, unida a un buen desempeño diario y equitativo en el trabajo.
+              p.mb-0 Un buen SLA, considera las condiciones y necesidades de la compañía y asigna un proveedor de soporte técnico que siga los acuerdos y responda a cada requerimiento, en el tiempo y espacio preciso, y permite que las empresas sean más competentes ante un mundo globalizado, lleno de entidades que brindan servicios similares. Además de contar con buen soporte técnico, se espera eficiencia en los servicios ofrecidos al consumidor final y, sobre todo, mayor fluidez, unida a un buen desempeño diario y equitativo en el trabajo.
 
 
 
