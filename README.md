@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF5-_228125_-ACUERDOS_ELABORACI-N_DE_PROPUESTA_TECNICO_ECONOMICA/](https://sena-externos.github.io/CF5-_228125_-ACUERDOS_ELABORACI-N_DE_PROPUESTA_TECNICO_ECONOMICA/)
 
 #
 
